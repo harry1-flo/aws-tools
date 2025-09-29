@@ -15,7 +15,7 @@ type Route53Config struct {
 func NewRoute53Config(cfg aws.Config, account string) *Route53Config {
 	return &Route53Config{
 		route53Client: route53.NewFromConfig(cfg),
-		Account:       account,
+		Account:       NamingConvert[account],
 	}
 }
 

@@ -2,6 +2,7 @@ package jobs
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/ldg940804-aws-tools/core/aws"
 	"github.com/ldg940804-aws-tools/fs"
@@ -27,6 +28,22 @@ func ListEC2NotAutoScaling(ec2 aws.EC2Config) {
 	for id, item := range ec2List {
 
 		if item.Tags["aws:autoscaling:groupName"] == "" {
+			csv.OneFileWrite(ec2.Account, id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
+		}
+	}
+}
+
+func ListEC2AutoScalingButNotBackupTag(ec2 aws.EC2Config) {
+
+	ec2List := ec2.ListInstance()
+
+	csv := fs.NewCSV(fmt.Sprintf("%s-%s", ec2.Account, "ec2-autoscaling-not-backuptag"))
+	defer csv.End()
+
+	csv.Write("InstanceId", "Name", "Service", "Environment", "AutoScalingGroup", "Backup")
+	for id, item := range ec2List {
+		fmt.Println(id, item.Tags["Backup"])
+		if item.Tags["aws:autoscaling:groupName"] != "" {
 			csv.Write(id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
 		}
 	}
@@ -55,11 +72,12 @@ func ListingDNSRecord(route53 aws.Route53Config) {
 
 		for _, r := range record {
 
-			if r.Name == "" || r.Type == "NS" || r.Type == "SOA" {
+			// acm 일단 제외, 근데 안쓰는 acm이 있을 수도 있음...
+			if r.Name == "" || r.Type == "SOA" || strings.Contains(r.Value, "acm-validations") || r.Type == "SRV" {
 				continue
 			}
 
-			csv.Write(route53.Account, hostName, r.Name, r.Type, r.Value)
+			csv.OneFileWrite(route53.Account, hostName, r.Name, r.Type, r.Value)
 		}
 	}
 

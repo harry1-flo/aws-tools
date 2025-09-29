@@ -16,12 +16,20 @@ import (
 }
 */
 
+var acs = []string{"dev", "dreamusaws001", "data", "deploy", "prd", "sec"}
+
 func main() {
-	cfg, account := aws.NewAWSUseProfile("dev")
-	// ec2 := aws.NewEC2(*cfg, account)
-	route53 := aws.NewRoute53Config(*cfg, account)
 
-	// jobs.ListEC2NotAutoScaling(*ec2)
-	jobs.ListingDNSRecord(*route53)
+	for _, ac := range acs {
+		cfg, account := aws.NewAWSUseProfile(ac)
 
+		// resources
+		ec2 := aws.NewEC2(*cfg, account)
+		// route53 := aws.NewRoute53Config(*cfg, account)
+
+		// jobs
+		jobs.ListEC2NotAutoScaling(*ec2)
+		// jobs.ListEC2AutoScalingButNotBackupTag(*ec2)
+		// jobs.ListingDNSRecord(*route53)
+	}
 }

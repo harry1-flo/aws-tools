@@ -18,7 +18,7 @@ type EC2Config struct {
 func NewEC2(cfg aws.Config, account string) *EC2Config {
 	return &EC2Config{
 		ec2Client: ec2.NewFromConfig(cfg),
-		Account:   account,
+		Account:   NamingConvert[account],
 	}
 }
 

@@ -16,6 +16,15 @@ var DreamsuProfileARNS = map[string]string{
 	"sec":           "953265915023",
 }
 
+var NamingConvert = map[string]string{
+	"dev":           "dev-flo",
+	"dreamusaws001": "dreamusaws001",
+	"data":          "flo-data",
+	"deploy":        "flo-deploy",
+	"prd":           "flo-production",
+	"sec":           "flo-security",
+}
+
 // useProfile
 func NewAWSUseProfile(profile string) (*aws.Config, string) {
 	cfg, err := config.LoadDefaultConfig(context.Background(),
