@@ -3,7 +3,6 @@ package jobs
 import (
 	"fmt"
 	"strconv"
-	"strings"
 
 	"github.com/ldg940804-aws-tools/core/aws"
 	"github.com/ldg940804-aws-tools/fs"
@@ -74,11 +73,9 @@ func ListingDNSRecord(route53 aws.Route53Config) {
 		for _, r := range record {
 
 			// acm 일단 제외, 근데 안쓰는 acm이 있을 수도 있음...
-			if r.Name == "" || r.Type == "SOA" || strings.Contains(r.Value, "acm-validations") || r.Type == "SRV" {
-				continue
+			if r.Type == "CNAME" || r.Type == "A" {
+				csv.OneFileWrite(route53.Account, hostName, r.Name, r.Type, r.Value)
 			}
-
-			csv.OneFileWrite(route53.Account, hostName, r.Name, r.Type, r.Value)
 		}
 	}
 
