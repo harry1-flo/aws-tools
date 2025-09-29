@@ -2,6 +2,7 @@ package jobs
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 
 	"github.com/ldg940804-aws-tools/core/aws"
@@ -24,30 +25,30 @@ func ListEC2NotAutoScaling(ec2 aws.EC2Config) {
 	csv := fs.NewCSV(ec2.Account)
 	defer csv.End()
 
-	csv.Write("InstanceId", "Name", "Service", "Environment", "AutoScalingGroup", "Backup")
+	csv.Write("InstanceId", "Name", "Service", "Environment", "AutoScalingGroup", "VolumeSize", "Backup")
 	for id, item := range ec2List {
 
 		if item.Tags["aws:autoscaling:groupName"] == "" {
-			csv.OneFileWrite(ec2.Account, id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
+			csv.OneFileWrite(ec2.Account, id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], strconv.Itoa(item.VolumeSize), item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
 		}
 	}
 }
 
-func ListEC2AutoScalingButNotBackupTag(ec2 aws.EC2Config) {
+// func ListEC2AutoScalingButNotBackupTag(ec2 aws.EC2Config) {
 
-	ec2List := ec2.ListInstance()
+// 	ec2List := ec2.ListInstance()
 
-	csv := fs.NewCSV(fmt.Sprintf("%s-%s", ec2.Account, "ec2-autoscaling-not-backuptag"))
-	defer csv.End()
+// 	csv := fs.NewCSV(fmt.Sprintf("%s-%s", ec2.Account, "ec2-autoscaling-not-backuptag"))
+// 	defer csv.End()
 
-	csv.Write("InstanceId", "Name", "Service", "Environment", "AutoScalingGroup", "Backup")
-	for id, item := range ec2List {
-		fmt.Println(id, item.Tags["Backup"])
-		if item.Tags["aws:autoscaling:groupName"] != "" {
-			csv.Write(id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
-		}
-	}
-}
+// 	csv.Write("InstanceId", "Name", "Service", "Environment", "AutoScalingGroup", "Backup")
+// 	for id, item := range ec2List {
+// 		fmt.Println(id, item.Tags["Backup"])
+// 		if item.Tags["aws:autoscaling:groupName"] != "" {
+// 			csv.Write(id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
+// 		}
+// 	}
+// }
 
 /*
 2025.9.26
