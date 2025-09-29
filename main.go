@@ -18,7 +18,10 @@ import (
 
 func main() {
 	cfg, account := aws.NewAWSUseProfile("dev")
-	ec2 := aws.NewEC2(*cfg, account)
+	// ec2 := aws.NewEC2(*cfg, account)
+	route53 := aws.NewRoute53Config(*cfg, account)
 
-	jobs.ListEC2NotAutoScaling(*ec2)
+	// jobs.ListEC2NotAutoScaling(*ec2)
+	jobs.ListingDNSRecord(*route53)
+
 }
