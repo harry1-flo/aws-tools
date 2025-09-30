@@ -1,0 +1,4640 @@
+********** _c17782c49639c46d587899e6138ffb3c.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_c17782c49639c46d587899e6138ffb3c.dev.music-flo.io	canonical name = _5dea42cd8d83ea9d1daa044724cb0e26.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** _a38d7d31ac73b1998e6a967cb5a8faab.api.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_a38d7d31ac73b1998e6a967cb5a8faab.api.dev.music-flo.io	canonical name = _7272cec45f696a281c5d8a42794f5ed6.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** backend.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	backend.dev.music-flo.io
+Address: 10.180.194.69
+
+
+
+
+********************
+********** redis.cache.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.dev.music-flo.io	canonical name = redis-cache-dev-music-flo-io.pe83rx.clustercfg.apn2.cache.amazonaws.com.
+
+
+
+
+********************
+********** dooly-argocd.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+dooly-argocd.dev.music-flo.io	canonical name = internal-k8s-doolyhel-doolyhel-9d0176e1b3-215000993.ap-northeast-2.elb.amazonaws.com.
+
+
+
+
+********************
+********** emr.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	emr.dev.music-flo.io
+Address: 10.180.196.188
+
+
+
+
+********************
+********** flo-reco.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-reco.dev.music-flo.io
+Address: 10.180.194.242
+
+
+
+
+********************
+********** flo-text-to-sql.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-text-to-sql.dev.music-flo.io
+Address: 10.180.195.149
+
+
+
+
+********************
+********** kafka.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka.dev.music-flo.io
+Address: 10.180.195.120
+
+
+
+
+********************
+********** nfs.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+nfs.dev.music-flo.io	canonical name = fs-aa1198ca.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** emr.poc.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	emr.poc.dev.music-flo.io
+Address: 10.180.196.78
+
+
+
+
+********************
+********** trino-masked.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	trino-masked.dev.music-flo.io
+Address: 10.180.196.98
+
+
+
+
+********************
+********** trino.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	trino.dev.music-flo.io
+Address: 10.180.196.131
+
+
+
+
+********************
+********** _423fdf4023557e3a077ffd813500ec3e.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_423fdf4023557e3a077ffd813500ec3e.qa01.music-flo.com	canonical name = _6b055e5403c3978d4ed4bf2e0cac1cb0.wmmlzlpmyg.acm-validations.aws.
+
+
+
+
+********************
+********** _7ec32acb8f770a5a6a0f124dd5e50210.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_7ec32acb8f770a5a6a0f124dd5e50210.qa01.music-flo.com	canonical name = _6074244dbf88bbbfa3e10b9ae140b0b9.bdvkfdzfbg.acm-validations.aws.
+
+
+
+
+********************
+********** _8339727fda38782d0b75bc6a081c51ce.api.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_8339727fda38782d0b75bc6a081c51ce.api.qa01.music-flo.com	canonical name = _35aac64ce95e344c34068981cf039ca7.bdvkfdzfbg.acm-validations.aws.
+
+
+
+
+********************
+********** mcp.cache.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp.cache.qa01.music-flo.com	canonical name = mcp-cache-qa01-music-flo-com.pe83rx.ng.0001.apn2.cache.amazonaws.com.
+mcp-cache-qa01-music-flo-com.pe83rx.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-cache-qa01-music-flo-com-001.pe83rx.0001.apn2.cache.amazonaws.com.
+Name:	mcp-cache-qa01-music-flo-com-001.pe83rx.0001.apn2.cache.amazonaws.com
+Address: 10.190.253.67
+
+
+
+
+********************
+********** pri-mcp-redis.cache.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis.cache.qa01.music-flo.com
+Address: 10.190.119.62
+
+
+
+
+********************
+********** redis.cache.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.qa01.music-flo.com	canonical name = redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com.
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.255.71
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.255.65
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.253.178
+
+
+
+
+********************
+********** _ffe6ad30d3af05a63970d2e772f6c0e4.cmsflo.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_ffe6ad30d3af05a63970d2e772f6c0e4.cmsflo.qa01.music-flo.com	canonical name = _2cdeaa26b37816fd4eaf359807d2a3d9.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** kafka-01.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-01.qa01.music-flo.com
+Address: 10.190.57.13
+
+
+
+
+********************
+********** kafka-02.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-02.qa01.music-flo.com
+Address: 10.190.71.152
+
+
+
+
+********************
+********** kafka-03.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-03.qa01.music-flo.com
+Address: 10.190.126.184
+
+
+
+
+********************
+********** mcp-nfs-data.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-nfs-data.qa01.music-flo.com	canonical name = fs-0508e4724727af17c.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** mongos-01.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-01.qa01.music-flo.com
+Address: 10.190.253.68
+
+
+
+
+********************
+********** mongos-02.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-02.qa01.music-flo.com
+Address: 10.190.254.217
+
+
+
+
+********************
+********** mongos-03.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-03.qa01.music-flo.com
+Address: 10.190.255.167
+
+
+
+
+********************
+********** nfs.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+nfs.qa01.music-flo.com	canonical name = fs-0984b7f5afe709c76.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** pri-mcp-zk.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk.qa01.music-flo.com
+Address: 10.190.103.161
+
+
+
+
+********************
+********** purchase-batch-nfs.qa01.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+purchase-batch-nfs.qa01.music-flo.com	canonical name = fs-05acec6ec2c9e8b8d.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** _2f95972d64499259bbf00a60ea9626d3.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_2f95972d64499259bbf00a60ea9626d3.dev.music-flo.com	canonical name = _16c2bff3048050b9fcc97a2c97c8a017.btsqtkxpyp.acm-validations.aws.
+
+
+
+
+********************
+********** _d10d77f4a4b174fa36be123b209846c0.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_d10d77f4a4b174fa36be123b209846c0.dev.music-flo.com	canonical name = _c08744ca0df7fe1383f9df5ca42206e7.mntkzmhvxg.acm-validations.aws.
+
+
+
+
+********************
+********** _4c7206e55d76cf0f811af4de00e4f04a.api.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_4c7206e55d76cf0f811af4de00e4f04a.api.dev.music-flo.com	canonical name = _8a110aa7eb0f95450b961d2a6e6a29b8.bdvkfdzfbg.acm-validations.aws.
+
+
+
+
+********************
+********** mcp.cache.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp.cache.dev.music-flo.com	canonical name = mcp-cache-dev-music-flo-com.pe83rx.ng.0001.apn2.cache.amazonaws.com.
+mcp-cache-dev-music-flo-com.pe83rx.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-cache-dev-music-flo-com-001.pe83rx.0001.apn2.cache.amazonaws.com.
+Name:	mcp-cache-dev-music-flo-com-001.pe83rx.0001.apn2.cache.amazonaws.com
+Address: 10.180.198.146
+
+
+
+
+********************
+********** pri-mcp-redis.cache.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis.cache.dev.music-flo.com
+Address: 10.180.194.189
+
+
+
+
+********************
+********** redis.cache.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.dev.music-flo.com	canonical name = redis-cache-dev-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com.
+Name:	redis-cache-dev-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.198.151
+Name:	redis-cache-dev-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.198.177
+Name:	redis-cache-dev-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.198.49
+
+
+
+
+********************
+********** _31c130495a4e13ae27040107fa7117dc.cmsflo.dev.music-flo.com. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+_31c130495a4e13ae27040107fa7117dc.cmsflo.dev.music-flo.com	canonical name = _41e499967f979ce06a5df34a2aacd05f.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** kafka.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka.dev.music-flo.com
+Address: 10.180.195.120
+
+
+
+
+********************
+********** mcp-nfs-data.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-nfs-data.dev.music-flo.com	canonical name = fs-06b5891e50ce2ec48.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** nfs.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+nfs.dev.music-flo.com	canonical name = fs-aa1198ca.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** pri-mcp-zk.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk.dev.music-flo.com
+Address: 10.180.194.88
+
+
+
+
+********************
+********** _3fa7a50b01ea14cf1275d9ac2311b324.dev99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_3fa7a50b01ea14cf1275d9ac2311b324.dev99.music-flo.com	canonical name = _1422bb503eef97e4a45c461cef8fdd88.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _b6ce899348c81324a8bbffc98ee4426f.dev99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_b6ce899348c81324a8bbffc98ee4426f.dev99.music-flo.com	canonical name = _66927d6cab54c0c1f3900d9b403e9290.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _27dd90eed68668df82526305d717ac57.qa99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_27dd90eed68668df82526305d717ac57.qa99.music-flo.com	canonical name = _bad55b62f252e5c699479100f9fc264c.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _a1d84da147f65fa2278480bd1f332170.qa99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_a1d84da147f65fa2278480bd1f332170.qa99.music-flo.com	canonical name = _5a6adbbe61897f76ac16d1d8cb0ff61f.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _2faa4f3c25bc0b820f6d78e4829a5180.dev.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_2faa4f3c25bc0b820f6d78e4829a5180.dev.flo-car.link	canonical name = _7995e5af9904ee5e861550d7fe83bdf8.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _664857b2aa82fc8090279d4d80c36737.dev.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_664857b2aa82fc8090279d4d80c36737.dev.flo-car.link	canonical name = _57dafd9337eb014029eabd03a3fa9c48.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _36bb0ae7c492c81dc1972d2ae07512b2.qa01.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_36bb0ae7c492c81dc1972d2ae07512b2.qa01.create-flo.com	canonical name = _f8268986c8cce4b381b1889bd999e7a4.hnyhpvdqhv.acm-validations.aws.
+
+
+
+
+********************
+********** _d820e8acbdef8df0e17f9fd3663df9c6.qa01.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_d820e8acbdef8df0e17f9fd3663df9c6.qa01.create-flo.com	canonical name = _079b11064a5c86563863c6e4b639bd48.bpxxncpwjz.acm-validations.aws.
+
+
+
+
+********************
+********** _e9e0babb34e292e22f8dbc419729fee3.dev.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_e9e0babb34e292e22f8dbc419729fee3.dev.flomuz.io	canonical name = _4a143dd8dd6525593cb854b17bbce4a9.bxmgrlxjqk.acm-validations.aws.
+
+
+
+
+********************
+********** _edc388667ad39737c0f608a2db03f41a.dev.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_edc388667ad39737c0f608a2db03f41a.dev.flomuz.io	canonical name = _136ced1a740b33f57d7dfbb49305599d.btsqtkxpyp.acm-validations.aws.
+
+
+
+
+********************
+********** _3044ea16472de67ddafe5698d0f9c4ea.qa01.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_3044ea16472de67ddafe5698d0f9c4ea.qa01.flomuz.io	canonical name = _003828aacc786322a722765493ff566e.mybbdzzyvz.acm-validations.aws.
+
+
+
+
+********************
+********** _d2216bd6a24399327869b2de102e092d.qa01.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_d2216bd6a24399327869b2de102e092d.qa01.flomuz.io	canonical name = _e57f6e1172fc0e13884183b53585482a.hnyhpvdqhv.acm-validations.aws.
+
+
+
+
+********************
+********** _6662c4db12c517b7ca0b5d1935c5002f.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_6662c4db12c517b7ca0b5d1935c5002f.qa.music-flo.com	canonical name = _5f955afba7afa42a7dc808643d0d6cc1.tjztrygkxr.acm-validations.aws.
+
+
+
+
+********************
+********** _7c08845bdb7e3d02596142b3e0325d8e.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_7c08845bdb7e3d02596142b3e0325d8e.qa.music-flo.com	canonical name = _9b87f5ed79cc06f0cc4084e309c1d820.yssrbzrnkq.acm-validations.aws.
+
+
+
+
+********************
+********** pri-mcp-redis.cache.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis.cache.qa.music-flo.com
+Address: 10.190.119.62
+
+
+
+
+********************
+********** redis.cache.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.qa.music-flo.com	canonical name = redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com.
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.255.65
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.253.178
+Name:	redis-cache-qa01-music-flo-com.pe83rx.clustercfg.apn2.cache.amazonaws.com
+Address: 10.190.255.71
+
+
+
+
+********************
+********** _62b4ba05825b72d0997315cf2646ca57.cmsflo.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_62b4ba05825b72d0997315cf2646ca57.cmsflo.qa.music-flo.com	canonical name = _bf1c3b42d66cbf2392d7cd06a8156ad5.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** kafka-01.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-01.qa.music-flo.com
+Address: 10.190.57.13
+
+
+
+
+********************
+********** kafka-02.qa.music-flo.com. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+Name:	kafka-02.qa.music-flo.com
+Address: 10.190.71.152
+
+
+
+
+********************
+********** kafka-03.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-03.qa.music-flo.com
+Address: 10.190.126.184
+
+
+
+
+********************
+********** mongos-01.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-01.qa.music-flo.com
+Address: 10.190.253.68
+
+
+
+
+********************
+********** mongos-02.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-02.qa.music-flo.com
+Address: 10.190.254.217
+
+
+
+
+********************
+********** mongos-03.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongos-03.qa.music-flo.com
+Address: 10.190.255.167
+
+
+
+
+********************
+********** nfs.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+nfs.qa.music-flo.com	canonical name = fs-0984b7f5afe709c76.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** pri-mcp-zk.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk.qa.music-flo.com
+Address: 10.190.103.161
+
+
+
+
+********************
+********** reco-hook.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	reco-hook.qa.music-flo.com
+Address: 10.190.37.213
+
+
+
+
+********************
+********** zk-01.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	zk-01.qa.music-flo.com
+Address: 10.190.32.69
+
+
+
+
+********************
+********** zk-02.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	zk-02.qa.music-flo.com
+Address: 10.190.89.79
+
+
+
+
+********************
+********** zk-03.qa.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	zk-03.qa.music-flo.com
+Address: 10.190.125.22
+
+
+
+
+********************
+********** dev-mgnd-mongo-up-01.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	dev-mgnd-mongo-up-01.dev.flodb.link
+Address: 10.180.198.34
+
+
+
+
+********************
+********** dev-mgnd-mongo-up-02.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	dev-mgnd-mongo-up-02.dev.flodb.link
+Address: 10.180.198.188
+
+
+
+
+********************
+********** dreamus-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+dreamus-my.dev.flodb.link	canonical name = dev-dreamus-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-dreamus-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.153
+
+
+
+
+********************
+********** ro.dreamus-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.dreamus-my.dev.flodb.link	canonical name = dev-dreamus-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-dreamus-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.153
+
+
+
+
+********************
+********** flo-mgo.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo.dev.flodb.link
+Address: 10.180.198.98
+
+
+
+
+********************
+********** mcp-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-my.dev.flodb.link	canonical name = dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** ro.mcp-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mcp-my.dev.flodb.link	canonical name = dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** mmate-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmate-my.dev.flodb.link	canonical name = dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** ro.mmate-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmate-my.dev.flodb.link	canonical name = dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** mmatearc-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatearc-my.dev.flodb.link	canonical name = dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** ro.mmatearc-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatearc-my.dev.flodb.link	canonical name = dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** mmatelog-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatelog-my.dev.flodb.link	canonical name = dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** ro.mmatelog-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatelog-my.dev.flodb.link	canonical name = dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** nearline-mgo.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgo.dev.flodb.link
+Address: 10.180.198.114
+
+
+
+
+********************
+********** ota-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ota-my.dev.flodb.link	canonical name = dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** ro.ota-my.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.ota-my.dev.flodb.link	canonical name = dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-flo-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.167
+
+
+
+
+********************
+********** support-mgo.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgo.dev.flodb.link
+Address: 10.180.198.114
+
+
+
+
+********************
+********** _e1b6c42f380e4a2d41da9c09669515e0.qa.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_e1b6c42f380e4a2d41da9c09669515e0.qa.flomuz.io	canonical name = _8e93d5e051d64dfe98ffbe8d3fef1561.yssrbzrnkq.acm-validations.aws.
+
+
+
+
+********************
+********** _8a55f252cbc5d011e2645ba6c0a2f28b.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_8a55f252cbc5d011e2645ba6c0a2f28b.cloud-dba.dev.flodb.link	canonical name = _8fa6eaf12ae9d38ae3404af9ff6fd2d0.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** not-exists-endpoint.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+not-exists-endpoint.cloud-dba.dev.flodb.link	canonical name = not-exists-endpoint.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+
+
+
+
+********************
+********** qa-dba-mongod-04.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-mongod-04.cloud-dba.dev.flodb.link
+Address: 10.190.253.72
+
+
+
+
+********************
+********** qa-dba-mongod-05.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-mongod-05.cloud-dba.dev.flodb.link
+Address: 10.190.254.49
+
+
+
+
+********************
+********** qa-dba-mongod-06.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-mongod-06.cloud-dba.dev.flodb.link
+Address: 10.190.255.101
+
+
+
+
+********************
+********** qa-dba-up-mongod-04.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-up-mongod-04.cloud-dba.dev.flodb.link
+Address: 10.190.253.96
+
+
+
+
+********************
+********** qa-dba-up-mongod-05.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-up-mongod-05.cloud-dba.dev.flodb.link
+Address: 10.190.254.95
+
+
+
+
+********************
+********** qa-dba-up-mongod-06.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa-dba-up-mongod-06.cloud-dba.dev.flodb.link
+Address: 10.190.255.184
+
+
+
+
+********************
+********** test-mongod-mgnd-01.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-mongod-mgnd-01.cloud-dba.dev.flodb.link
+Address: 10.180.45.117
+
+
+
+
+********************
+********** test-mongod-mgnd-02.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-mongod-mgnd-02.cloud-dba.dev.flodb.link
+Address: 10.180.45.138
+
+
+
+
+********************
+********** test-mongod-mgnd-03.cloud-dba.dev.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-mongod-mgnd-03.cloud-dba.dev.flodb.link
+Address: 10.180.46.72
+
+
+
+
+********************
+********** _3b43e9bfe8c68c6ee1bb916afa131efc.qa.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_3b43e9bfe8c68c6ee1bb916afa131efc.qa.create-flo.com	canonical name = _1fadea65637411beda787f0835dbdb9e.tjztrygkxr.acm-validations.aws.
+
+
+
+
+********************
+********** _799bfb7d073cccc2af19d1c3b3c92f5a.qa.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_799bfb7d073cccc2af19d1c3b3c92f5a.qa.create-flo.com	canonical name = _3a6e55f43208f783ec8b3a87bac4ffdb.tjztrygkxr.acm-validations.aws.
+
+
+
+
+********************
+********** _85914b33943ae9181f3c69390de40e40.mcp-eks.dev.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_85914b33943ae9181f3c69390de40e40.mcp-eks.dev.music-flo.com	canonical name = _dc7f40c0e779a9bdf2898037f01a0ef3.mhbtsbpdnt.acm-validations.aws.
+
+
+
+
+********************
+********** flo-mgo-01.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-01.qa01.flodb.link
+Address: 10.190.253.90
+
+
+
+
+********************
+********** flo-mgo-02.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-02.qa01.flodb.link
+Address: 10.190.254.63
+
+
+
+
+********************
+********** flo-mgo-03.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-03.qa01.flodb.link
+Address: 10.190.255.190
+
+
+
+
+********************
+********** flo-mgo-test.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-test.qa01.flodb.link
+Address: 10.190.253.68
+Name:	flo-mgo-test.qa01.flodb.link
+Address: 10.190.254.217
+Name:	flo-mgo-test.qa01.flodb.link
+Address: 10.190.255.167
+
+
+
+
+********************
+********** mcp-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** ro.mcp-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mcp-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** mmate-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmate-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** ro.mmate-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmate-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** mmatearc-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatearc-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** ro.mmatearc-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatearc-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** mmatelog-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatelog-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** ro.mmatelog-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatelog-my.qa01.flodb.link	canonical name = qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-flo-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-flo-up-service-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.202
+
+
+
+
+********************
+********** nearline-mgo.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgo.qa01.flodb.link
+Address: 10.190.253.27
+
+
+
+
+********************
+********** qa01-mgnd-mongo-up-01.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa01-mgnd-mongo-up-01.qa01.flodb.link
+Address: 10.190.253.214
+
+
+
+
+********************
+********** qa01-mgnd-mongo-up-02.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	qa01-mgnd-mongo-up-02.qa01.flodb.link
+Address: 10.190.255.73
+
+
+
+
+********************
+********** service-dreamus-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+service-dreamus-my.qa01.flodb.link	canonical name = qa01-service-dreamus-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-service-dreamus-up.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-service-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-service-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.168
+
+
+
+
+********************
+********** ro.service-dreamus-my.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.service-dreamus-my.qa01.flodb.link	canonical name = qa01-service-dreamus-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa01-service-dreamus-up.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-service-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-service-dreamus-up-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.254.168
+
+
+
+
+********************
+********** support-mgo.qa01.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgo.qa01.flodb.link
+Address: 10.190.253.27
+
+
+
+
+********************
+********** _ef9927dde7bc0c3284f2e1c07a4393c3.qa01.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_ef9927dde7bc0c3284f2e1c07a4393c3.qa01.music-flo.io	canonical name = _e01d1ca6976357753f6a9784c5e9a2b8.fyfbssdptv.acm-validations.aws.
+
+
+
+
+********************
+********** _ba52b9b69c7eb2ca72846264d3ae55ba.api.qa01.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_ba52b9b69c7eb2ca72846264d3ae55ba.api.qa01.music-flo.io	canonical name = _580a00e36c3d76ac737f2567dce67e91.hsmgrxbjqd.acm-validations.aws.
+
+
+
+
+********************
+********** backend.qa01.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	backend.qa01.music-flo.io
+Address: 10.190.112.6
+
+
+
+
+********************
+********** flo-search.qa01.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+flo-search.qa01.music-flo.io	canonical name = vpc-flo-search-dev-qa-4hnabhdytpwlzo3ytbzi6hr6iq.ap-northeast-2.es.amazonaws.com.
+Name:	vpc-flo-search-dev-qa-4hnabhdytpwlzo3ytbzi6hr6iq.ap-northeast-2.es.amazonaws.com
+Address: 10.190.53.242
+Name:	vpc-flo-search-dev-qa-4hnabhdytpwlzo3ytbzi6hr6iq.ap-northeast-2.es.amazonaws.com
+Address: 10.190.118.124
+Name:	vpc-flo-search-dev-qa-4hnabhdytpwlzo3ytbzi6hr6iq.ap-northeast-2.es.amazonaws.com
+Address: 10.190.77.170
+
+
+
+
+********************
+********** _71b3f9bb69ec11de7bc5b71c83c4232b.qa.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_71b3f9bb69ec11de7bc5b71c83c4232b.qa.flo-car.link	canonical name = _512d5a2726d0a26a51cacb63d94122e8.tfmgdnztqk.acm-validations.aws.
+
+
+
+
+********************
+********** _febb92ff198f946be9277d1e2ffc3b28.qa.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_febb92ff198f946be9277d1e2ffc3b28.qa.flo-car.link	canonical name = _d93415e09466f47863f658070e0f119e.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _4603c7f3e00d32143cbab120db3a24f2.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_4603c7f3e00d32143cbab120db3a24f2.dreamuscompany.com	canonical name = _5e662baaa9490e597b66a26461e319fa.bwlshdtstt.acm-validations.aws.
+
+
+
+
+********************
+********** _76f13daf3040df96c76ffda1530ce576.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_76f13daf3040df96c76ffda1530ce576.dreamuscompany.com	canonical name = _2b7b65f8faf580b3d364f0405fc2aefa.ghcgkbmxjw.acm-validations.aws.
+
+
+
+
+********************
+********** _f676eee68a06c7dfe2e8c90ad0cbaba7.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_f676eee68a06c7dfe2e8c90ad0cbaba7.dreamuscompany.com	canonical name = _9558f5f86be9ca5dc25695ccde42325d.mrhcxwpsky.acm-validations.aws.
+
+
+
+
+********************
+********** _fbbf96a3d0d709d946536eb165a6951d.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_fbbf96a3d0d709d946536eb165a6951d.dreamuscompany.com	canonical name = _4b452bb73dc3ce5f1869f71f91bdcc68.duyqrilejt.acm-validations.aws.
+
+
+
+
+********************
+********** autodiscover.dreamuscompany.com. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+Name:	autodiscover.dreamuscompany.com
+Address: 1.226.141.151
+
+
+
+
+********************
+********** _76f13daf3040df96c76ffda1530ce576.dev.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_76f13daf3040df96c76ffda1530ce576.dev.dreamuscompany.com	canonical name = _2b7b65f8faf580b3d364f0405fc2aefa.ghcgkbmxjw.acm-validations.aws.
+
+
+
+
+********************
+********** _f98714294fe7debbf3956bcd841e8c93.dev.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_f98714294fe7debbf3956bcd841e8c93.dev.dreamuscompany.com	canonical name = _8ef8113df0edc3c8794e8aba5ee4a224.dbspspvlns.acm-validations.aws.
+
+
+
+
+********************
+********** legacy.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	legacy.dreamuscompany.com
+Address: 1.226.141.151
+
+
+
+
+********************
+********** mail.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mail.dreamuscompany.com
+Address: 1.226.141.151
+
+
+
+
+********************
+********** _42f3c84dcc98c3a7141e91dd04c4a588.mail.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_42f3c84dcc98c3a7141e91dd04c4a588.mail.dreamuscompany.com	canonical name = 0308c74b836ac4a31d72eaa5179b64ce.47dc1791e5037bf2e7628755076e942a.comodoca.com.
+
+
+
+
+********************
+********** _28ea97bf6ddf43187dc675d0d5a66569.qa.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_28ea97bf6ddf43187dc675d0d5a66569.qa.dreamuscompany.com	canonical name = _d25746af4ed702b62ec3eb2afff5330d.dnzkjbsjxj.acm-validations.aws.
+
+
+
+
+********************
+********** _be231b7eac8881a69aa28e18e18c8ce0.qa.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_be231b7eac8881a69aa28e18e18c8ce0.qa.dreamuscompany.com	canonical name = _a09120a5fcf21f502cc73d2515546501.cvxnfrzvtq.acm-validations.aws.
+
+
+
+
+********************
+********** spam.dreamuscompany.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	spam.dreamuscompany.com
+Address: 1.226.141.100
+
+
+
+
+********************
+********** _6aa6e6db335ff2ae031c0e1698074a7e.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_6aa6e6db335ff2ae031c0e1698074a7e.dreamus.io	canonical name = _1ab9d519b49de6a593e5437bd2c3d6e8.kirrbxfjtw.acm-validations.aws.
+
+
+
+
+********************
+********** _959ab6cbc758477d4f5423a4dd6bf2ea.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_959ab6cbc758477d4f5423a4dd6bf2ea.dreamus.io	canonical name = ac8c2c0bed3d90b1a33f08edb71d643f.1dccd6c64199ad7432d3c7671696d543.comodoca.com.
+
+
+
+
+********************
+********** _b8cb4dda0ada4ece0d800126f910f5ba.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_b8cb4dda0ada4ece0d800126f910f5ba.dreamus.io	canonical name = _0949916cfffd558a8f7bc1e690ff0432.mhbtsbpdnt.acm-validations.aws.
+
+
+
+
+********************
+********** _c58545c9d4f08ec6497d22f0d9a1ded9.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_c58545c9d4f08ec6497d22f0d9a1ded9.dreamus.io	canonical name = _a5616213dc9148bd0d477ac556f2a952.tfmgdnztqk.acm-validations.aws.
+
+
+
+
+********************
+********** 5snvl2bd4nmuskxev6qznldqcvv6n3gt._domainkey.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+5snvl2bd4nmuskxev6qznldqcvv6n3gt._domainkey.dreamus.io	canonical name = 5snvl2bd4nmuskxev6qznldqcvv6n3gt.dkim.amazonses.com.
+
+
+
+
+********************
+********** iezu7hyyzs2wdpqeirfmuydk3qt4pzii._domainkey.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+iezu7hyyzs2wdpqeirfmuydk3qt4pzii._domainkey.dreamus.io	canonical name = iezu7hyyzs2wdpqeirfmuydk3qt4pzii.dkim.amazonses.com.
+
+
+
+
+********************
+********** rdgwobabmv3xl2abyc4xb633xnhh7wdo._domainkey.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+rdgwobabmv3xl2abyc4xb633xnhh7wdo._domainkey.dreamus.io	canonical name = rdgwobabmv3xl2abyc4xb633xnhh7wdo.dkim.amazonses.com.
+
+
+
+
+********************
+********** stb._domainkey.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+stb._domainkey.dreamus.io	canonical name = dkim.stibee.com.
+
+
+
+
+********************
+********** _f72ebdeeb798b9e481cde51e71fecb97.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_f72ebdeeb798b9e481cde51e71fecb97.dreamus.io	canonical name = _65677d20b27cc23153fb7389554d4d75.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** account.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+account.dreamus.io	canonical name = dualstack.internal-export-ctrl-dreamus-io-408648751.ap-northeast-2.elb.amazonaws.com.
+
+
+
+
+********************
+********** cal.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+cal.dreamus.io	canonical name = ghs.googlehosted.com.
+Name:	ghs.googlehosted.com
+Address: 172.253.115.121
+
+
+
+
+********************
+********** _b573e6fbe1e73cb473b53761df9de95c.dev.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_b573e6fbe1e73cb473b53761df9de95c.dev.dreamus.io	canonical name = _64787b1b7c04c58ed89d70539acb7531.nfyddsqlcy.acm-validations.aws.
+
+
+
+
+********************
+********** drive.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+drive.dreamus.io	canonical name = ghs.googlehosted.com.
+Name:	ghs.googlehosted.com
+Address: 172.253.115.121
+
+
+
+
+********************
+********** hr.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	hr.dreamus.io
+Address: 10.1.10.140
+
+
+
+
+********************
+********** imon.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	imon.dreamus.io
+Address: 10.1.10.48
+
+
+
+
+********************
+********** mail.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mail.dreamus.io	canonical name = ghs.googlehosted.com.
+Name:	ghs.googlehosted.com
+Address: 172.253.115.121
+
+
+
+
+********************
+********** mgw.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mgw.dreamus.io
+Address: 1.226.141.120
+
+
+
+
+********************
+********** nac.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nac.dreamus.io
+Address: 10.0.11.48
+
+
+
+
+********************
+********** ota-qa.dreamus.io. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+** server can't find ota-qa.dreamus.io: NXDOMAIN
+
+
+
+
+********************
+********** _28fa6757333cdc364e57999010056837.qa01.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_28fa6757333cdc364e57999010056837.qa01.dreamus.io	canonical name = _13413a0037690b23391b5832c5b54d32.mhbtsbpdnt.acm-validations.aws.
+
+
+
+
+********************
+********** sase.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+sase.dreamus.io	canonical name = sase-dreamus.gpcloudservice.com.
+Name:	sase-dreamus.gpcloudservice.com
+Address: 144.125.94.91
+
+
+
+
+********************
+********** site.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+site.dreamus.io	canonical name = ghs.googlehosted.com.
+Name:	ghs.googlehosted.com
+Address: 172.253.115.121
+
+
+
+
+********************
+********** sw.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	sw.dreamus.io
+Address: 1.234.35.195
+
+
+
+
+********************
+********** _f2fad0ed4483279fe9c0f220c5c22751.test.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_f2fad0ed4483279fe9c0f220c5c22751.test.dreamus.io	canonical name = _a3461832a42c7dcd46fc66a6b6a6ef60.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** vpn.dreamus.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	vpn.dreamus.io
+Address: 1.226.141.15
+
+
+
+
+********************
+********** mds-my.dev.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mds-my.dev.dreamusdb.link	canonical name = dev-mds.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-mds.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-mds-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-mds-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.158
+
+
+
+
+********************
+********** ro.mds-my.dev.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mds-my.dev.dreamusdb.link	canonical name = dev-mds.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+dev-mds.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = dev-mds-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-mds-instance-1.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.198.158
+
+
+
+
+********************
+********** reco-dept-my.dev.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+reco-dept-my.dev.dreamusdb.link	canonical name = dev-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+dev-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.219.210
+
+
+
+
+********************
+********** solution-dreamus-my.dev.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+solution-dreamus-my.dev.dreamusdb.link	canonical name = dev-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+dev-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.219.210
+
+
+
+
+********************
+********** ro.solution-dreamus-my.dev.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.solution-dreamus-my.dev.dreamusdb.link	canonical name = dev-dreamus.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+dev-dreamus.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.219.210
+
+
+
+
+********************
+********** mds-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mds-my.prod.dreamusdb.link	canonical name = prod-mds.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mds.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mds-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mds-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.56
+
+
+
+
+********************
+********** ro.mds-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mds-my.prod.dreamusdb.link	canonical name = prod-mds.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mds.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mds-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mds-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.132
+
+
+
+
+********************
+********** prod-dreamus-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+prod-dreamus-my.prod.dreamusdb.link	canonical name = prod-dreamus-up.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+prod-dreamus-up.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = prod-dreamus-up-instance-2.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-dreamus-up-instance-2.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.223.214
+
+
+
+
+********************
+********** ro.prod-dreamus-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.prod-dreamus-my.prod.dreamusdb.link	canonical name = prod-dreamus-up.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+prod-dreamus-up.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = prod-dreamus-up-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-dreamus-up-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.223.85
+
+
+
+
+********************
+********** reco-dept-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+reco-dept-my.prod.dreamusdb.link	canonical name = prod-dreamus-up.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+prod-dreamus-up.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = prod-dreamus-up-instance-2.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-dreamus-up-instance-2.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.223.214
+
+
+
+
+********************
+********** ro.reco-dept-my.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.reco-dept-my.prod.dreamusdb.link	canonical name = prod-dreamus-up.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+prod-dreamus-up.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = prod-dreamus-up-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-dreamus-up-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.223.85
+
+
+
+
+********************
+********** web-bastion-pg.prod.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+web-bastion-pg.prod.dreamusdb.link	canonical name = bastion.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	bastion.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.223.30
+
+
+
+
+********************
+********** dreamus-my.qa.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+dreamus-my.qa.dreamusdb.link	canonical name = qa01-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+qa01-dreamus.cluster-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.219.87
+
+
+
+
+********************
+********** ro.dreamus-my.qa.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.dreamus-my.qa.dreamusdb.link	canonical name = qa01-dreamus.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+qa01-dreamus.cluster-ro-cy4artogqinj.ap-northeast-2.rds.amazonaws.com	canonical name = qa01-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com.
+Name:	qa01-dreamus-instance-1.cy4artogqinj.ap-northeast-2.rds.amazonaws.com
+Address: 10.10.219.87
+
+
+
+
+********************
+********** mds-my.qa.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mds-my.qa.dreamusdb.link	canonical name = qa-mds.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa-mds.cluster-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa-mds-service-instance-2.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa-mds-service-instance-2.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.253.13
+
+
+
+
+********************
+********** ro.mds-my.qa.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mds-my.qa.dreamusdb.link	canonical name = qa-mds.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+qa-mds.cluster-ro-cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com	canonical name = qa-mds-service-instance-2.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com.
+Name:	qa-mds-service-instance-2.cvzu2tknt0xt.ap-northeast-2.rds.amazonaws.com
+Address: 10.190.253.13
+
+
+
+
+********************
+********** _c7f632b3b9250065e85877430cd707fc.data.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_c7f632b3b9250065e85877430cd707fc.data.music-flo.io	canonical name = _99a5b31aef56f3b9a47fa674632ee8f1.kzhndfqvzk.acm-validations.aws.
+
+
+
+
+********************
+********** redis.cache.data.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.data.music-flo.io	canonical name = redis-cache-data-music-flo-io.5ns0il.clustercfg.apn2.cache.amazonaws.com.
+
+
+
+
+********************
+********** _a3dbb7f4c0cdc3cb704b737630c20c5f.mgmt.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_a3dbb7f4c0cdc3cb704b737630c20c5f.mgmt.music-flo.io	canonical name = _4dd933195ac56a027e5b38dcb4f9c809.hnyhpvdqhv.acm-validations.aws.
+
+
+
+
+********************
+********** mongo-ops-manager-01.mgmt.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongo-ops-manager-01.mgmt.music-flo.io
+Address: 10.180.226.106
+
+
+
+
+********************
+********** mongo-ops-manager-02.mgmt.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongo-ops-manager-02.mgmt.music-flo.io
+Address: 10.180.228.100
+
+
+
+
+********************
+********** mongo-ops-manager-03.mgmt.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mongo-ops-manager-03.mgmt.music-flo.io
+Address: 10.180.227.195
+
+
+
+
+********************
+********** db.deploy.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+db.deploy.music-flo.io	canonical name = prod-infra-dreamus-up.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+prod-infra-dreamus-up.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com	canonical name = prod-infra-dreamus-up-instance-2.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-infra-dreamus-up-instance-2.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.230.106
+
+
+
+
+********************
+********** infra-dreamus-my-dev.deploy.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+infra-dreamus-my-dev.deploy.music-flo.io	canonical name = dev-infra-dreamus.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+dev-infra-dreamus.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com	canonical name = dev-infra-dreamus-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-infra-dreamus-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.238.92
+
+
+
+
+********************
+********** ro.infra-dreamus-my-dev.deploy.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.infra-dreamus-my-dev.deploy.music-flo.io	canonical name = dev-infra-dreamus.cluster-ro-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+dev-infra-dreamus.cluster-ro-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com	canonical name = dev-infra-dreamus-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	dev-infra-dreamus-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.238.92
+
+
+
+
+********************
+********** dependency-track-pg.mgmt.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+dependency-track-pg.mgmt.dreamusdb.link	canonical name = dependency-track.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	dependency-track.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.230.125
+
+
+
+
+********************
+********** deploy-my.mgmt.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+deploy-my.mgmt.dreamusdb.link	canonical name = prod-infra-dreamus-up.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+prod-infra-dreamus-up.cluster-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com	canonical name = prod-infra-dreamus-up-instance-2.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-infra-dreamus-up-instance-2.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.230.106
+
+
+
+
+********************
+********** ro.deploy-my.mgmt.dreamusdb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.deploy-my.mgmt.dreamusdb.link	canonical name = prod-infra-dreamus-up.cluster-ro-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+prod-infra-dreamus-up.cluster-ro-chix9jzlaajz.ap-northeast-2.rds.amazonaws.com	canonical name = prod-infra-dreamus-up-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-infra-dreamus-up-instance-1.chix9jzlaajz.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.230.10
+
+
+
+
+********************
+********** _523882aa93dace5bea6c30ed56681a9d.mgmt.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_523882aa93dace5bea6c30ed56681a9d.mgmt.dev.music-flo.io	canonical name = _9bd030310582c13210afa4940c7d3f95.mhbtsbpdnt.acm-validations.aws.
+
+
+
+
+********************
+********** _ff1a33a673fff59b960e882d332a0970.infra.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_ff1a33a673fff59b960e882d332a0970.infra.dev.music-flo.io	canonical name = _3d89333753d9df9f0cf3009e3934df0e.mhbtsbpdnt.acm-validations.aws.
+
+
+
+
+********************
+********** test-juliet-al2023.infra.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-juliet-al2023.infra.dev.music-flo.io
+Address: 10.180.234.39
+
+
+
+
+********************
+********** _8c75782a929ebffeb8f7e9ec4ba6b328.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_8c75782a929ebffeb8f7e9ec4ba6b328.infra.music-flo.io	canonical name = _d74ff5bb7881ea5f57b3fd3c307ee565.olprtlswtu.acm-validations.aws.
+
+
+
+
+********************
+********** _eb3fa7191dee9c9f57c34f48de64fe51.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_eb3fa7191dee9c9f57c34f48de64fe51.infra.music-flo.io	canonical name = _0a609ce13cce6a856fa70a328a51545c.tfmgdnztqk.acm-validations.aws.
+
+
+
+
+********************
+********** a-kafka01-test.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	a-kafka01-test.infra.music-flo.io
+Address: 10.180.234.29
+
+
+
+
+********************
+********** a-kafka01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	a-kafka01.infra.music-flo.io
+Address: 10.180.226.85
+
+
+
+
+********************
+********** a-kafka02.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	a-kafka02.infra.music-flo.io
+Address: 10.180.226.31
+
+
+
+
+********************
+********** a-kafka03.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	a-kafka03.infra.music-flo.io
+Address: 10.180.226.150
+
+
+
+
+********************
+********** a-zk01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	a-zk01.infra.music-flo.io
+Address: 10.180.226.144
+
+
+
+
+********************
+********** b-kafka01-test.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	b-kafka01-test.infra.music-flo.io
+Address: 10.180.235.224
+
+
+
+
+********************
+********** b-kafka01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	b-kafka01.infra.music-flo.io
+Address: 10.180.227.203
+
+
+
+
+********************
+********** b-kafka02.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	b-kafka02.infra.music-flo.io
+Address: 10.180.227.249
+
+
+
+
+********************
+********** b-kafka03.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	b-kafka03.infra.music-flo.io
+Address: 10.180.227.107
+
+
+
+
+********************
+********** b-zk01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	b-zk01.infra.music-flo.io
+Address: 10.180.227.52
+
+
+
+
+********************
+********** c-kafka01-test.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	c-kafka01-test.infra.music-flo.io
+Address: 10.180.236.45
+
+
+
+
+********************
+********** c-kafka01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	c-kafka01.infra.music-flo.io
+Address: 10.180.228.90
+
+
+
+
+********************
+********** c-kafka02.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	c-kafka02.infra.music-flo.io
+Address: 10.180.228.42
+
+
+
+
+********************
+********** c-kafka03.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	c-kafka03.infra.music-flo.io
+Address: 10.180.228.43
+
+
+
+
+********************
+********** c-zk01.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	c-zk01.infra.music-flo.io
+Address: 10.180.228.135
+
+
+
+
+********************
+********** _4acee7cd40a0930ecd9ef1c099881cfd.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_4acee7cd40a0930ecd9ef1c099881cfd.log.infra.music-flo.io	canonical name = _4d876a5ba0162482ca7291705cb19898.bkngfjypgb.acm-validations.aws.
+
+
+
+
+********************
+********** _e9b669dd7e66880ea66f801b39bb654c.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_e9b669dd7e66880ea66f801b39bb654c.log.infra.music-flo.io	canonical name = _30bfc24c81ba2875990d7e280cdbb89c.mzlfeqexyx.acm-validations.aws.
+
+
+
+
+********************
+********** _d03fe978f6d20df52b7fd293b82110cd.alpha.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_d03fe978f6d20df52b7fd293b82110cd.alpha.log.infra.music-flo.io	canonical name = _2486442d807673f3035b04112faa67f0.dqxlbvzbzt.acm-validations.aws.
+
+
+
+
+********************
+********** _74d73325333de4b920000b1e8a8a62e3.dev.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_74d73325333de4b920000b1e8a8a62e3.dev.log.infra.music-flo.io	canonical name = _968014d979c4b64be1738acc60d3c03f.mzlfeqexyx.acm-validations.aws.
+
+
+
+
+********************
+********** _c106fd924a76b58660165392dd27c0a5.qa.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_c106fd924a76b58660165392dd27c0a5.qa.log.infra.music-flo.io	canonical name = _82e37fdc168818b30d02b5bc9d1bbf4e.yygwskclfy.acm-validations.aws.
+
+
+
+
+********************
+********** _7743339d046833ff1ac449b55e92dfa0.qa01.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_7743339d046833ff1ac449b55e92dfa0.qa01.log.infra.music-flo.io	canonical name = _4ccfbdd3d1710b4063b53be478f9030c.cvxnfrzvtq.acm-validations.aws.
+
+
+
+
+********************
+********** _161584ead4a291aaa60ba85570b1686f.stg.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_161584ead4a291aaa60ba85570b1686f.stg.log.infra.music-flo.io	canonical name = _7529bf714ffcec687571fc4b3ee1888c.dqxlbvzbzt.acm-validations.aws.
+
+
+
+
+********************
+********** _3fc1d9a7f897c48ae1ebb045e060466f.stg.log.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_3fc1d9a7f897c48ae1ebb045e060466f.stg.log.infra.music-flo.io	canonical name = _b6f6dbab01e47ec8ce4cb388bb7fc0ae.mzlfeqexyx.acm-validations.aws.
+
+
+
+
+********************
+********** meta-db.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	meta-db.infra.music-flo.io
+Address: 10.180.228.165
+
+
+
+
+********************
+********** opensearch.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+opensearch.infra.music-flo.io	canonical name = vpc-metric-monitoring-tjfoxxuxqncnyies5kabznkamu.ap-northeast-2.es.amazonaws.com.
+Name:	vpc-metric-monitoring-tjfoxxuxqncnyies5kabznkamu.ap-northeast-2.es.amazonaws.com
+Address: 10.180.227.129
+Name:	vpc-metric-monitoring-tjfoxxuxqncnyies5kabznkamu.ap-northeast-2.es.amazonaws.com
+Address: 10.180.228.209
+Name:	vpc-metric-monitoring-tjfoxxuxqncnyies5kabznkamu.ap-northeast-2.es.amazonaws.com
+Address: 10.180.226.214
+
+
+
+
+********************
+********** pmm-ec2.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pmm-ec2.infra.music-flo.io
+Address: 10.180.226.220
+
+
+
+
+********************
+********** prometheus.infra.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	prometheus.infra.music-flo.io
+Address: 10.180.227.157
+
+
+
+
+********************
+********** _0d8ffbb9193c0af730d47a2d2d645a99.alpha.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_0d8ffbb9193c0af730d47a2d2d645a99.alpha.music-flo.com	canonical name = _e1f73108adf8c2cf7882e68cb85586b6.bwfqbhlrkg.acm-validations.aws.
+
+
+
+
+********************
+********** _9678fe8d8bb7ac8179ac96b51cc822b0.alpha.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_9678fe8d8bb7ac8179ac96b51cc822b0.alpha.music-flo.com	canonical name = _a945251706fa870689f8eab56c4f415a.nhsllhhtvj.acm-validations.aws.
+
+
+
+
+********************
+********** _1bfd0c247aec3a1c989d35ff98861ca8.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_1bfd0c247aec3a1c989d35ff98861ca8.prod.music-flo.com	canonical name = _93daa787d7ce3814a827a4f8699508f6.rdnyqppgxp.acm-validations.aws.
+
+
+
+
+********************
+********** _95374de5de97465cfe5fe792d708a487.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_95374de5de97465cfe5fe792d708a487.prod.music-flo.com	canonical name = _3678e9d3618cc2f1179a05a07832a992.bdvkfdzfbg.acm-validations.aws.
+
+
+
+
+********************
+********** mcp-mds.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-mds.cache.prod.music-flo.com	canonical name = mcp-mds-cache-prod-music-flo-com.nbqywf.ng.0001.apn2.cache.amazonaws.com.
+mcp-mds-cache-prod-music-flo-com.nbqywf.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-mds-cache-prod-music-flo-com-001.nbqywf.0001.apn2.cache.amazonaws.com.
+Name:	mcp-mds-cache-prod-music-flo-com-001.nbqywf.0001.apn2.cache.amazonaws.com
+Address: 10.180.45.162
+
+
+
+
+********************
+********** ro.mcp-mds.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mcp-mds.cache.prod.music-flo.com	canonical name = mcp-mds-cache-prod-music-flo-com-ro.nbqywf.ng.0001.apn2.cache.amazonaws.com.
+mcp-mds-cache-prod-music-flo-com-ro.nbqywf.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-mds-cache-prod-music-flo-com-003.nbqywf.0001.apn2.cache.amazonaws.com.
+Name:	mcp-mds-cache-prod-music-flo-com-003.nbqywf.0001.apn2.cache.amazonaws.com
+Address: 10.180.45.19
+
+
+
+
+********************
+********** mcp-service.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-service.cache.prod.music-flo.com	canonical name = mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com.
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.46.95
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.17
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.152
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.237
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.61
+Name:	mcp-service-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.46.46
+
+
+
+
+********************
+********** mcp.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp.cache.prod.music-flo.com	canonical name = mcp-cache-music-flo-com.nbqywf.ng.0001.apn2.cache.amazonaws.com.
+mcp-cache-music-flo-com.nbqywf.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-cache-music-flo-com-001.nbqywf.0001.apn2.cache.amazonaws.com.
+Name:	mcp-cache-music-flo-com-001.nbqywf.0001.apn2.cache.amazonaws.com
+Address: 10.180.45.133
+
+
+
+
+********************
+********** ro.mcp.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mcp.cache.prod.music-flo.com	canonical name = mcp-cache-music-flo-com-ro.nbqywf.ng.0001.apn2.cache.amazonaws.com.
+mcp-cache-music-flo-com-ro.nbqywf.ng.0001.apn2.cache.amazonaws.com	canonical name = mcp-cache-music-flo-com-003.nbqywf.0001.apn2.cache.amazonaws.com.
+Name:	mcp-cache-music-flo-com-003.nbqywf.0001.apn2.cache.amazonaws.com
+Address: 10.180.46.44
+
+
+
+
+********************
+********** pri-mcp-redis-01.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-01.cache.prod.music-flo.com
+Address: 10.180.37.94
+
+
+
+
+********************
+********** pri-mcp-redis-02.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-02.cache.prod.music-flo.com
+Address: 10.180.39.80
+
+
+
+
+********************
+********** pri-mcp-redis-03.cache.prod.music-flo.com. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-03.cache.prod.music-flo.com
+Address: 10.180.41.85
+
+
+
+
+********************
+********** pri-mcp-redis-cluster-01.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-cluster-01.cache.prod.music-flo.com
+Address: 10.1.22.183
+
+
+
+
+********************
+********** pri-mcp-redis-cluster-02.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-cluster-02.cache.prod.music-flo.com
+Address: 10.1.22.184
+
+
+
+
+********************
+********** pri-mcp-redis-cluster-03.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-cluster-03.cache.prod.music-flo.com
+Address: 10.1.22.186
+
+
+
+
+********************
+********** redis.cache.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+redis.cache.prod.music-flo.com	canonical name = redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com.
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.46.41
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.46.117
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.213
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.175
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.14
+Name:	redis-cache-prod-music-flo-com.nbqywf.clustercfg.apn2.cache.amazonaws.com
+Address: 10.180.45.80
+
+
+
+
+********************
+********** _fd320ac1a83e8a28853396434056cacb.cmsflo.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_fd320ac1a83e8a28853396434056cacb.cmsflo.prod.music-flo.com	canonical name = _656ec541bdcfced620550f8551faa6ad.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** kafka-01.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-01.prod.music-flo.com
+Address: 10.180.36.140
+
+
+
+
+********************
+********** kafka-02.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-02.prod.music-flo.com
+Address: 10.180.39.36
+
+
+
+
+********************
+********** kafka-03.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-03.prod.music-flo.com
+Address: 10.180.40.47
+
+
+
+
+********************
+********** kafka-04.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-04.prod.music-flo.com
+Address: 10.180.36.106
+
+
+
+
+********************
+********** kafka-05.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	kafka-05.prod.music-flo.com
+Address: 10.180.40.224
+
+
+
+
+********************
+********** mcp-nfs-data.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-nfs-data.prod.music-flo.com	canonical name = fs-07b9b29534599a616.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** nfs.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+nfs.prod.music-flo.com	canonical name = fs-084374ce69f336703.efs.ap-northeast-2.amazonaws.com.
+
+
+
+
+********************
+********** pri-mcp-redis-stat-clst.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-redis-stat-clst.prod.music-flo.com
+Address: 10.1.22.183
+
+
+
+
+********************
+********** pri-mcp-zk-01.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk-01.prod.music-flo.com
+Address: 10.180.37.125
+
+
+
+
+********************
+********** pri-mcp-zk-02.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk-02.prod.music-flo.com
+Address: 10.180.39.228
+
+
+
+
+********************
+********** pri-mcp-zk-03.prod.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	pri-mcp-zk-03.prod.music-flo.com
+Address: 10.180.41.47
+
+
+
+
+********************
+********** _857975ec38db0cd4515c697db342a5d9.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_857975ec38db0cd4515c697db342a5d9.music-flo.com	canonical name = _b6b7ff9bb6abad3582dd42698999cffd.bdvkfdzfbg.acm-validations.aws.
+
+
+
+
+********************
+********** _8835c716252c75cfd0892fb115f7bf11.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_8835c716252c75cfd0892fb115f7bf11.music-flo.com	canonical name = _7c6885a122a4f0f3f2cf86f105f5fda3.bxmgrlxjqk.acm-validations.aws.
+
+
+
+
+********************
+********** _d7f945d4f0efe7fe5fbdcd6b13c6521c.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_d7f945d4f0efe7fe5fbdcd6b13c6521c.music-flo.com	canonical name = _ecc2b739a87df5bfffc453b8d0622474.yssrbzrnkq.acm-validations.aws.
+
+
+
+
+********************
+********** apollo-cdn.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+apollo-cdn.music-flo.com	canonical name = apollo-cdn2.music-flo.dlacc.skcdn.com.
+Name:	apollo-cdn2.music-flo.dlacc.skcdn.com
+Address: 222.239.240.108
+Name:	apollo-cdn2.music-flo.dlacc.skcdn.com
+Address: 211.110.63.102
+
+
+
+
+********************
+********** apollo-hls.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+apollo-hls.music-flo.com	canonical name = apollo-hls2.music-flo.dlacc.skcdn.com.
+Name:	apollo-hls2.music-flo.dlacc.skcdn.com
+Address: 175.126.177.73
+Name:	apollo-hls2.music-flo.dlacc.skcdn.com
+Address: 211.110.226.69
+
+
+
+
+********************
+********** apollo-hpd.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+apollo-hpd.music-flo.com	canonical name = apollo-hpd2.music-flo.dlacc.skcdn.com.
+Name:	apollo-hpd2.music-flo.dlacc.skcdn.com
+Address: 211.110.63.101
+Name:	apollo-hpd2.music-flo.dlacc.skcdn.com
+Address: 211.110.63.102
+
+
+
+
+********************
+********** apollo-vhls.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+apollo-vhls.music-flo.com	canonical name = apollo-vhls2.music-flo.dlacc.skcdn.com.
+Name:	apollo-vhls2.music-flo.dlacc.skcdn.com
+Address: 219.240.16.186
+Name:	apollo-vhls2.music-flo.dlacc.skcdn.com
+Address: 175.126.177.73
+
+
+
+
+********************
+********** cdn.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+cdn.music-flo.com	canonical name = image-music-flo.dlacc.skcdn.com.
+Name:	image-music-flo.dlacc.skcdn.com
+Address: 211.110.63.106
+Name:	image-music-flo.dlacc.skcdn.com
+Address: 211.110.226.78
+
+
+
+
+********************
+********** cdn2.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+cdn2.music-flo.com	canonical name = cdn2.music-flo.dlacc.skcdn.com.
+Name:	cdn2.music-flo.dlacc.skcdn.com
+Address: 211.110.226.78
+Name:	cdn2.music-flo.dlacc.skcdn.com
+Address: 211.110.63.106
+
+
+
+
+********************
+********** _07236fe87c04dc98e23b48986296aaac.cmsflo.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_07236fe87c04dc98e23b48986296aaac.cmsflo.music-flo.com	canonical name = _a7f889419759273fd1a2b9cfed1fc702.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** hls.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+hls.music-flo.com	canonical name = auth-music-flo.dlacc.skcdn.com.
+Name:	auth-music-flo.dlacc.skcdn.com
+Address: 222.239.240.107
+Name:	auth-music-flo.dlacc.skcdn.com
+Address: 175.126.177.78
+
+
+
+
+********************
+********** hls2.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+hls2.music-flo.com	canonical name = hls2.music-flo.dlacc.skcdn.com.
+Name:	hls2.music-flo.dlacc.skcdn.com
+Address: 211.110.226.78
+Name:	hls2.music-flo.dlacc.skcdn.com
+Address: 211.110.63.106
+
+
+
+
+********************
+********** hpd.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+hpd.music-flo.com	canonical name = music-flo.dlacc.skcdn.com.
+Name:	music-flo.dlacc.skcdn.com
+Address: 211.110.63.106
+Name:	music-flo.dlacc.skcdn.com
+Address: 211.110.63.107
+
+
+
+
+********************
+********** hpd2.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+hpd2.music-flo.com	canonical name = hpd2.music-flo.dlacc.skcdn.com.
+Name:	hpd2.music-flo.dlacc.skcdn.com
+Address: 222.239.240.107
+Name:	hpd2.music-flo.dlacc.skcdn.com
+Address: 211.110.226.78
+
+
+
+
+********************
+********** mds-cdn.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mds-cdn.music-flo.com	canonical name = mds-cdn.music-flo.dlacc.skcdn.com.
+Name:	mds-cdn.music-flo.dlacc.skcdn.com
+Address: 219.240.16.185
+Name:	mds-cdn.music-flo.dlacc.skcdn.com
+Address: 175.126.177.78
+
+
+
+
+********************
+********** mff.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mff.music-flo.com	canonical name = d21q2zab2c655q.cloudfront.net.
+Name:	d21q2zab2c655q.cloudfront.net
+Address: 13.225.134.19
+Name:	d21q2zab2c655q.cloudfront.net
+Address: 13.225.134.14
+Name:	d21q2zab2c655q.cloudfront.net
+Address: 13.225.134.59
+Name:	d21q2zab2c655q.cloudfront.net
+Address: 13.225.134.54
+
+
+
+
+********************
+********** _f4b0d8c09df12ddbe60f7da598fb9e45.mff.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_f4b0d8c09df12ddbe60f7da598fb9e45.mff.music-flo.com	canonical name = _961220cd87097cd852a234ff1d5b231a.sdgjtdhdhz.acm-validations.aws.
+
+
+
+
+********************
+********** reco-hook.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	reco-hook.music-flo.com
+Address: 10.180.37.21
+
+
+
+
+********************
+********** _a3f083469dbe4bd695072ee4459810c1.alpha.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_a3f083469dbe4bd695072ee4459810c1.alpha.create-flo.com	canonical name = _596e973eb32e24589e11db3c4a65e893.yzdtlljtvc.acm-validations.aws.
+
+
+
+
+********************
+********** _66fd3d6ebe6044641c59c7b638cdf69c.prod99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_66fd3d6ebe6044641c59c7b638cdf69c.prod99.music-flo.com	canonical name = _5127cfd129a20a8ec65073625b03800f.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _95210d9fbc0d7fa9303c338f04c005b9.prod99.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_95210d9fbc0d7fa9303c338f04c005b9.prod99.music-flo.com	canonical name = _8db6f867478ab9e4355129fd2ec0c311.xlfgrmvvlj.acm-validations.aws.
+
+
+
+
+********************
+********** _da5e09e44e011811d8558a0db04e9426.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_da5e09e44e011811d8558a0db04e9426.prod.music-flo.io	canonical name = _951a720707cb33a4596ab2ef72f9f3aa.bsgbmzkfwj.acm-validations.aws.
+
+
+
+
+********************
+********** _0a8d6261c801e2422864bac9656ff5f7.emr-mon.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_0a8d6261c801e2422864bac9656ff5f7.emr-mon.prod.music-flo.io	canonical name = _2c1a9f5c985cb57530fd3f80e0d42c40.dqxlbvzbzt.acm-validations.aws.
+
+
+
+
+********************
+********** test-dba-mgo-01.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgo-01.test.flodb.link
+Address: 10.180.45.53
+
+
+
+
+********************
+********** test-dba-mgo-02.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgo-02.test.flodb.link
+Address: 10.180.45.196
+
+
+
+
+********************
+********** test-dba-mgo-03.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgo-03.test.flodb.link
+Address: 10.180.46.48
+
+
+
+
+********************
+********** test-dba-mgod-01.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-01.test.flodb.link
+Address: 10.180.45.93
+
+
+
+
+********************
+********** test-dba-mgod-02.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-02.test.flodb.link
+Address: 10.180.45.205
+
+
+
+
+********************
+********** test-dba-mgod-03.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-03.test.flodb.link
+Address: 10.180.46.75
+
+
+
+
+********************
+********** test-dba-mgod-04.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-04.test.flodb.link
+Address: 10.180.45.102
+
+
+
+
+********************
+********** test-dba-mgod-05.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-05.test.flodb.link
+Address: 10.180.45.173
+
+
+
+
+********************
+********** test-dba-mgod-06.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-06.test.flodb.link
+Address: 10.180.46.54
+
+
+
+
+********************
+********** test-dba-mgod-07.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-07.test.flodb.link
+Address: 10.180.45.41
+
+
+
+
+********************
+********** test-dba-mgod-08.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-08.test.flodb.link
+Address: 10.180.45.230
+
+
+
+
+********************
+********** test-dba-mgod-09.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-09.test.flodb.link
+Address: 10.180.46.90
+
+
+
+
+********************
+********** test-dba-mgod-10.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-10.test.flodb.link
+Address: 10.180.45.89
+
+
+
+
+********************
+********** test-dba-mgod-11.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-11.test.flodb.link
+Address: 10.180.45.186
+
+
+
+
+********************
+********** test-dba-mgod-12.test.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	test-dba-mgod-12.test.flodb.link
+Address: 10.180.46.82
+
+
+
+
+********************
+********** _088108e8280ab8e9c292a5ad2e70d6f9.prod.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_088108e8280ab8e9c292a5ad2e70d6f9.prod.flomuz.io	canonical name = _68865bb5ca2a58e3ee4a2a9a4d40cea4.rdnyqppgxp.acm-validations.aws.
+
+
+
+
+********************
+********** _17f4192435db1520e65f4cf2b282b5fd.prod.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_17f4192435db1520e65f4cf2b282b5fd.prod.flomuz.io	canonical name = _482ab2d3b1c1aef313ce6327d73fcc7c.nhsllhhtvj.acm-validations.aws.
+
+
+
+
+********************
+********** _02d8787b9c8af4c21124f55c05df8421.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_02d8787b9c8af4c21124f55c05df8421.music-flo.io	canonical name = _a8ab404155845d7ba262545cfd0f38b4.sggfvksfyf.acm-validations.aws.
+
+
+
+
+********************
+********** _61b488f4994540e024dd4e371cead04d.music-flo.io. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+_61b488f4994540e024dd4e371cead04d.music-flo.io	canonical name = _0fbd47eac1fa63ddb27d2e3575f008bf.jfrzftwwjs.acm-validations.aws.
+
+
+
+
+********************
+********** _bdc3ba6ee6fa715826151251fefd7cc3.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_bdc3ba6ee6fa715826151251fefd7cc3.music-flo.io	canonical name = _6daabb2a0014d13872a41f319df5ad34.duyqrilejt.acm-validations.aws.
+
+
+
+
+********************
+********** _6d21f3e7391a684e95cdc19880018d81.api.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_6d21f3e7391a684e95cdc19880018d81.api.music-flo.io	canonical name = _2fc1203a387186f2952ea1ac80bab3ba.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** ldap.aws.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	ldap.aws.music-flo.io
+Address: 10.10.221.75
+Name:	ldap.aws.music-flo.io
+Address: 10.10.222.145
+
+
+
+
+********************
+********** _1e05e06ec3047d44f81dd50e8359bd6e.api.dev.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+** server can't find _1e05e06ec3047d44f81dd50e8359bd6e.api.dev.music-flo.io: NXDOMAIN
+
+
+
+
+********************
+********** flo-image-generation.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-image-generation.music-flo.io
+Address: 10.1.22.181
+
+
+
+
+********************
+********** fmon.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	fmon.music-flo.io
+Address: 10.180.37.21
+
+
+
+
+********************
+********** _526efd593b5628b63bbf289167675659.hatta.mcp.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_526efd593b5628b63bbf289167675659.hatta.mcp.music-flo.io	canonical name = _a983c627b703d3ce6168609acf21ded8.mzlfeqexyx.acm-validations.aws.
+
+
+
+
+********************
+********** emr.7-5.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+emr.7-5.prod.music-flo.io	canonical name = emr.prod.music-flo.io.
+Name:	emr.prod.music-flo.io
+Address: 10.180.41.29
+
+
+
+
+********************
+********** _da5e09e44e011811d8558a0db04e9426.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_da5e09e44e011811d8558a0db04e9426.prod.music-flo.io	canonical name = _951a720707cb33a4596ab2ef72f9f3aa.bsgbmzkfwj.acm-validations.aws.
+
+
+
+
+********************
+********** backend.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	backend.prod.music-flo.io
+Address: 10.180.37.213
+
+
+
+
+********************
+********** _0a8d6261c801e2422864bac9656ff5f7.emr-mon.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_0a8d6261c801e2422864bac9656ff5f7.emr-mon.prod.music-flo.io	canonical name = _2c1a9f5c985cb57530fd3f80e0d42c40.dqxlbvzbzt.acm-validations.aws.
+
+
+
+
+********************
+********** emr.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	emr.prod.music-flo.io
+Address: 10.180.41.29
+
+
+
+
+********************
+********** flo-search.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+flo-search.prod.music-flo.io	canonical name = vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com.
+Name:	vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com
+Address: 10.180.39.182
+Name:	vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com
+Address: 10.180.41.169
+Name:	vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com
+Address: 10.180.38.67
+Name:	vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com
+Address: 10.180.37.141
+Name:	vpc-flo-search-prod-gye2bgaiwh2oaifzwqrimybcra.ap-northeast-2.es.amazonaws.com
+Address: 10.180.36.197
+
+
+
+
+********************
+********** presto.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	presto.prod.music-flo.io
+Address: 10.180.39.229
+
+
+
+
+********************
+********** trino.prod.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	trino.prod.music-flo.io
+Address: 10.180.38.141
+
+
+
+
+********************
+********** squid.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	squid.music-flo.io
+Address: 10.10.204.90
+
+
+
+
+********************
+********** _5584bd736ae6758f187e6f681814cead.stg.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_5584bd736ae6758f187e6f681814cead.stg.music-flo.io	canonical name = _f19f08c3e48a0cd0eed7e648bd71ab29.zbkrxsrfvj.acm-validations.aws.
+
+
+
+
+********************
+********** _67022476ebaa2d22848f104cb52305ff.api.stg.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_67022476ebaa2d22848f104cb52305ff.api.stg.music-flo.io	canonical name = _4f8027e8c05cafd39affa29a0e34aaee.nhqijqilxf.acm-validations.aws.
+
+
+
+
+********************
+********** ldap.test.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	ldap.test.music-flo.io
+Address: 10.10.218.106
+
+
+
+
+********************
+********** _0eb8a473e10dd9aa63e031c8824e0cf4.flomuz.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_0eb8a473e10dd9aa63e031c8824e0cf4.flomuz.io	canonical name = _2e6f6711d312650bbdffb30e0f252c19.btkxpdzscj.acm-validations.aws.
+
+
+
+
+********************
+********** _88cc99e2e203dc0a711ba809a33837a9.stg.music-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_88cc99e2e203dc0a711ba809a33837a9.stg.music-flo.com	canonical name = _a741cd2b27e3462b9edeb09436a22651.bxmgrlxjqk.acm-validations.aws.
+
+
+
+
+********************
+********** _2f4cf0adc89a2cb5a9576e30f5ddd18d.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_2f4cf0adc89a2cb5a9576e30f5ddd18d.create-flo.com	canonical name = _2e501195c85bb44b16e2ad8f143362c0.bpxxncpwjz.acm-validations.aws.
+
+
+
+
+********************
+********** _bddead5dd96984096ad6bc7659ba07d9.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_bddead5dd96984096ad6bc7659ba07d9.create-flo.com	canonical name = _4f5a715bdc433550784e8bf865754cce.bpxxncpwjz.acm-validations.aws.
+
+
+
+
+********************
+********** _aeb7e6695410a26f3c5b1e02224caae1.prod.create-flo.com. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_aeb7e6695410a26f3c5b1e02224caae1.prod.create-flo.com	canonical name = _03be47bbf6ebd44d978695ceb0c05dda.djqtsrsxkq.acm-validations.aws.
+
+
+
+
+********************
+********** _2804215d02712a5fd1cc6fdf0323515a.alpha.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_2804215d02712a5fd1cc6fdf0323515a.alpha.music-flo.io	canonical name = _2d0ab5079940b3c7863ad887d3690e7b.bwfqbhlrkg.acm-validations.aws.
+
+
+
+
+********************
+********** _98c0e5bbc5cc6ea1929225eff715959b.api.alpha.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_98c0e5bbc5cc6ea1929225eff715959b.api.alpha.music-flo.io	canonical name = _d3e780ca33530543cc14f4a52054fd9e.bwfqbhlrkg.acm-validations.aws.
+
+
+
+
+********************
+********** digitalcard-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+digitalcard-my.prod.flodb.link	canonical name = prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.38
+
+
+
+
+********************
+********** ro.digitalcard-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.digitalcard-my.prod.flodb.link	canonical name = prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.164
+
+
+
+
+********************
+********** dreamus-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+dreamus-my.prod.flodb.link	canonical name = prod-service-dreamus.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-service-dreamus.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-service-dreamus-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-service-dreamus-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.100
+
+
+
+
+********************
+********** ro.dreamus-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.dreamus-my.prod.flodb.link	canonical name = prod-service-dreamus.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-service-dreamus.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-service-dreamus-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-service-dreamus-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.197
+
+
+
+
+********************
+********** flo-extract-mgo-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-extract-mgo-01.prod.flodb.link
+Address: 10.180.45.45
+
+
+
+
+********************
+********** flo-mgo-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-01.prod.flodb.link
+Address: 10.180.45.52
+
+
+
+
+********************
+********** flo-mgo-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-02.prod.flodb.link
+Address: 10.180.45.187
+
+
+
+
+********************
+********** flo-mgo-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgo-03.prod.flodb.link
+Address: 10.180.46.74
+
+
+
+
+********************
+********** flo-mgod-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-01.prod.flodb.link
+Address: 10.180.45.96
+
+
+
+
+********************
+********** flo-mgod-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-02.prod.flodb.link
+Address: 10.180.45.177
+
+
+
+
+********************
+********** flo-mgod-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-03.prod.flodb.link
+Address: 10.180.46.76
+
+
+
+
+********************
+********** flo-mgod-04.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-04.prod.flodb.link
+Address: 10.180.45.9
+
+
+
+
+********************
+********** flo-mgod-05.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-05.prod.flodb.link
+Address: 10.180.45.216
+
+
+
+
+********************
+********** flo-mgod-06.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-06.prod.flodb.link
+Address: 10.180.46.98
+
+
+
+
+********************
+********** flo-mgod-07.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-07.prod.flodb.link
+Address: 10.180.45.82
+
+
+
+
+********************
+********** flo-mgod-08.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-08.prod.flodb.link
+Address: 10.180.45.195
+
+
+
+
+********************
+********** flo-mgod-09.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-09.prod.flodb.link
+Address: 10.180.46.61
+
+
+
+
+********************
+********** flo-mgod-10.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-10.prod.flodb.link
+Address: 10.180.45.87
+
+
+
+
+********************
+********** flo-mgod-11.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-11.prod.flodb.link
+Address: 10.180.45.190
+
+
+
+
+********************
+********** flo-mgod-12.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	flo-mgod-12.prod.flodb.link
+Address: 10.180.46.85
+
+
+
+
+********************
+********** mcp-mgo-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mcp-mgo-01.prod.flodb.link
+Address: 10.180.45.31
+
+
+
+
+********************
+********** mcp-mgo-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mcp-mgo-02.prod.flodb.link
+Address: 10.180.45.194
+
+
+
+
+********************
+********** mcp-mgo-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	mcp-mgo-03.prod.flodb.link
+Address: 10.180.46.118
+
+
+
+
+********************
+********** mcp-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mcp-my.prod.flodb.link	canonical name = prod-mcp.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mcp.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mcp-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mcp-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.24
+
+
+
+
+********************
+********** extract.mcp-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+extract.mcp-my.prod.flodb.link	canonical name = prod-mcp-extract.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mcp-extract.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mcp-extract-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mcp-extract-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.71
+
+
+
+
+********************
+********** ro.mcp-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mcp-my.prod.flodb.link	canonical name = prod-mcp.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mcp.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mcp-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mcp-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.168
+
+
+
+
+********************
+********** mmate-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmate-my.prod.flodb.link	canonical name = prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.38
+
+
+
+
+********************
+********** extract.mmate-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+extract.mmate-my.prod.flodb.link	canonical name = prod-mmate-extract.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate-extract.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-extract-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-extract-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.220
+
+
+
+
+********************
+********** ro.mmate-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmate-my.prod.flodb.link	canonical name = prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.164
+
+
+
+
+********************
+********** mmatearc-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatearc-my.prod.flodb.link	canonical name = prod-mmate-arc.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate-arc.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-arc-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-arc-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.68
+
+
+
+
+********************
+********** ro.mmatearc-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatearc-my.prod.flodb.link	canonical name = prod-mmate-arc.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate-arc.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-arc-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-arc-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.180
+
+
+
+
+********************
+********** mmatelog-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+mmatelog-my.prod.flodb.link	canonical name = prod-mmate-arc.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate-arc.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-arc-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-arc-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.68
+
+
+
+
+********************
+********** ro.mmatelog-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.mmatelog-my.prod.flodb.link	canonical name = prod-mmate-arc.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate-arc.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-arc-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-arc-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.180
+
+
+
+
+********************
+********** nearline-mgo-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgo-01.prod.flodb.link
+Address: 10.180.45.70
+
+
+
+
+********************
+********** nearline-mgo-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgo-02.prod.flodb.link
+Address: 10.180.45.179
+
+
+
+
+********************
+********** nearline-mgo-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgo-03.prod.flodb.link
+Address: 10.180.46.73
+
+
+
+
+********************
+********** nearline-mgod-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgod-01.prod.flodb.link
+Address: 10.180.45.25
+
+
+
+
+********************
+********** nearline-mgod-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgod-02.prod.flodb.link
+Address: 10.180.45.140
+
+
+
+
+********************
+********** nearline-mgod-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	nearline-mgod-03.prod.flodb.link
+Address: 10.180.46.52
+
+
+
+
+********************
+********** ota-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ota-my.prod.flodb.link	canonical name = prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.38
+
+
+
+
+********************
+********** ro.ota-my.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ro.ota-my.prod.flodb.link	canonical name = prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-ro-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-2.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.45.164
+
+
+
+
+********************
+********** ota.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+ota.prod.flodb.link	canonical name = prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+prod-mmate.cluster-crbdsqpcye01.ap-northeast-2.rds.amazonaws.com	canonical name = prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com.
+Name:	prod-mmate-service-instance-1.crbdsqpcye01.ap-northeast-2.rds.amazonaws.com
+Address: 10.180.46.38
+
+
+
+
+********************
+********** prod-nearline-mongod-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	prod-nearline-mongod-01.prod.flodb.link
+Address: 10.180.45.25
+
+
+
+
+********************
+********** prod-nearline-mongod-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	prod-nearline-mongod-02.prod.flodb.link
+Address: 10.180.45.140
+
+
+
+
+********************
+********** prod-nearline-mongod-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	prod-nearline-mongod-03.prod.flodb.link
+Address: 10.180.46.52
+
+
+
+
+********************
+********** prod-seldb.prod.flodb.link. **********
+Server:		168.126.63.1
+Address:	168.126.63.1#53
+
+Non-authoritative answer:
+Name:	prod-seldb.prod.flodb.link
+Address: 10.180.45.63
+
+
+
+
+********************
+********** support-mgo-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgo-01.prod.flodb.link
+Address: 10.180.45.70
+
+
+
+
+********************
+********** support-mgo-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgo-02.prod.flodb.link
+Address: 10.180.45.179
+
+
+
+
+********************
+********** support-mgo-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgo-03.prod.flodb.link
+Address: 10.180.46.73
+
+
+
+
+********************
+********** support-mgod-01.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgod-01.prod.flodb.link
+Address: 10.180.45.25
+
+
+
+
+********************
+********** support-mgod-02.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgod-02.prod.flodb.link
+Address: 10.180.45.140
+
+
+
+
+********************
+********** support-mgod-03.prod.flodb.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	support-mgod-03.prod.flodb.link
+Address: 10.180.46.52
+
+
+
+
+********************
+********** _4d4fb391aa6ecbf0218516de94d608c4.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_4d4fb391aa6ecbf0218516de94d608c4.flo-car.link	canonical name = _a850f9f77e0c73c539127de8ec771379.jfrzftwwjs.acm-validations.aws.
+
+
+
+
+********************
+********** _e369038f4aab90966f1dc083c1208bbc.flo-car.link. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_e369038f4aab90966f1dc083c1208bbc.flo-car.link	canonical name = _34e190228c8f3a59a3a04a2bb9535272.qwknvqrlct.acm-validations.aws.
+
+
+
+
+********************
+********** _0caef21f87c0143320939a8200d469c1.sec.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_0caef21f87c0143320939a8200d469c1.sec.music-flo.io	canonical name = _34db6f489dc2ab0718c994dac2bf8247.qwknvqrlct.acm-validations.aws.
+
+
+
+
+********************
+********** _753a2c9332684094989af31710ca3335.sec.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+_753a2c9332684094989af31710ca3335.sec.music-flo.io	canonical name = _afda2da6a6532d3b0e36e0b39dcaeaa1.btkxpdzscj.acm-validations.aws.
+
+
+
+
+********************
+********** tadpole-proxy.sec.music-flo.io. **********
+Server:		10.1.10.21
+Address:	10.1.10.21#53
+
+Non-authoritative answer:
+Name:	tadpole-proxy.sec.music-flo.io
+Address: 10.180.37.161
+
+
+
+
+********************

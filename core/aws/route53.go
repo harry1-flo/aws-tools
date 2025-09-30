@@ -60,7 +60,7 @@ func (r *Route53Config) ListDNSRecord(hostedId string) ([]RecordParams, error) {
 			if re.AliasTarget != nil {
 				recordParams = append(recordParams, RecordParams{
 					Name:  *re.Name,
-					Type:  string(re.Type),
+					Type:  "Alias",
 					Value: *re.AliasTarget.DNSName,
 				})
 			} else {

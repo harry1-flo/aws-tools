@@ -73,7 +73,7 @@ func ListingDNSRecord(route53 aws.Route53Config) {
 		for _, r := range record {
 
 			// acm 일단 제외, 근데 안쓰는 acm이 있을 수도 있음...
-			if r.Type == "CNAME" || r.Type == "A" {
+			if r.Type == "CNAME" || r.Type == "A" || r.Type == "Alias" {
 				csv.OneFileWrite(route53.Account, hostName, r.Name, r.Type, r.Value)
 			}
 		}
