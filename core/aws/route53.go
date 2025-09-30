@@ -55,21 +55,23 @@ func (r *Route53Config) ListDNSRecord(hostedId string) ([]RecordParams, error) {
 	for _, re := range resp.ResourceRecordSets {
 		// ResourceRecords가 비어있지 않은 경우만 처리
 		if len(re.ResourceRecords) > 0 {
-			recordParams = append(recordParams, RecordParams{
-				Name:  *re.Name,
-				Type:  string(re.Type),
-				Value: *re.ResourceRecords[0].Value,
-			})
+
+			// Alias 일 경우
+			if re.AliasTarget != nil {
+				recordParams = append(recordParams, RecordParams{
+					Name:  *re.Name,
+					Type:  string(re.Type),
+					Value: *re.AliasTarget.DNSName,
+				})
+			} else {
+				recordParams = append(recordParams, RecordParams{
+					Name:  *re.Name,
+					Type:  string(re.Type),
+					Value: *re.ResourceRecords[0].Value,
+				})
+			}
 		}
 
-		// Alias 일 경우
-		if re.AliasTarget != nil {
-			recordParams = append(recordParams, RecordParams{
-				Name:  *re.Name,
-				Type:  string(re.Type),
-				Value: *re.AliasTarget.DNSName,
-			})
-		}
 	}
 
 	return recordParams, err
