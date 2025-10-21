@@ -3,6 +3,7 @@ package jobs
 import (
 	"fmt"
 	"strconv"
+	"strings"
 
 	"github.com/ldg940804-aws-tools/core/aws"
 	"github.com/ldg940804-aws-tools/fs"
@@ -20,7 +21,7 @@ Backup plan
 */
 func ListEC2NotAutoScaling(ec2 aws.EC2Config) {
 
-	ec2List := ec2.ListInstance()
+	ec2List := ec2.ListInstance(false)
 	csv := fs.NewCSV(ec2.Account)
 	defer csv.End()
 
@@ -31,6 +32,37 @@ func ListEC2NotAutoScaling(ec2 aws.EC2Config) {
 			csv.OneFileWrite(ec2.Account, id, item.Tags["Name"], item.Tags["Service"], item.Tags["Environment"], strconv.Itoa(item.VolumeSize), item.Tags["aws:autoscaling:groupName"], item.Tags["Backup"])
 		}
 	}
+}
+
+func ListEC2(ec2 aws.EC2Config) {
+
+	ec2List := ec2.ListInstance(true)
+	csv := fs.NewCSV(ec2.Account)
+	defer csv.End()
+
+	// emr 제외
+	csv.Write("account", "InstanceId", "Name", "Environment", "SingleInstanceCount", "AutoScalingGroup", "ASG Min", "ASG Max")
+
+	for _, ec2Attr := range ec2List {
+		// EMR 체크
+		isEMR := false
+		for tagKey, _ := range ec2Attr.Tags {
+			if strings.Contains(tagKey, "elasticmapreduce") {
+				fmt.Println("emr : ", ec2Attr.Name)
+				isEMR = true
+				break
+			}
+		}
+
+		// EMR이면 skip
+		if isEMR {
+			continue
+		}
+
+		csv.OneFileWrite(ec2.Account, ec2Attr.InstanceId, ec2Attr.Name, ec2Attr.Environment, strconv.Itoa(ec2Attr.SingleInstanceCount),
+			ec2Attr.Tags["aws:autoscaling:groupName"], ec2Attr.AsgMin, ec2Attr.AsgMax)
+	}
+
 }
 
 // func ListEC2AutoScalingButNotBackupTag(ec2 aws.EC2Config) {
