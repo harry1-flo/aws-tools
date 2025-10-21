@@ -20,8 +20,6 @@ import (
 
 var acs = []string{"dev", "dreamusaws001", "data", "deploy", "prd", "sec"}
 
-// var acs = []string{"deploy"}
-
 func main() {
 
 	for _, ac := range acs {

@@ -74,8 +74,6 @@ func (c EC2Config) ListInstance(isAutoScaling bool) map[string]ListInstanceParma
 		for _, instance := range reserve.Instances {
 			tagMap := spreadTags(instance.Tags)
 
-			// autoscaling group
-
 			// ebs details
 			ec2Detail, err := c.GetEC2Details(*instance.InstanceId)
 			if err != nil {
@@ -117,45 +115,60 @@ func (c EC2Config) ListInstance(isAutoScaling bool) map[string]ListInstanceParma
 			if isAutoScaling && c.isAutoscaling(tagMap) {
 				autoScalingGroupName := tagMap["aws:autoscaling:groupName"]
 
-				resp, err := c.autoScalingClient.DescribeAutoScalingGroups(context.Background(), &autoscaling.DescribeAutoScalingGroupsInput{
-					AutoScalingGroupNames: []string{autoScalingGroupName},
-				})
-				if err != nil {
-					fmt.Println("autoScalingGroup Error : ", err)
-					continue
-				}
-
-				if len(resp.AutoScalingGroups) > 0 {
-					min := *resp.AutoScalingGroups[0].MinSize
-					max := *resp.AutoScalingGroups[0].MaxSize
-
-					instanceParmas.AsgMin = strconv.Itoa(int(min))
-					instanceParmas.AsgMax = strconv.Itoa(int(max))
-				}
-
-				// 예약된 작업에서 최소 개수 조회
-				scheduledActionsResp, err := c.autoScalingClient.DescribeScheduledActions(context.Background(), &autoscaling.DescribeScheduledActionsInput{
+				// 동적 크기 정책 존재 여부
+				policiesResp, err := c.autoScalingClient.DescribePolicies(context.Background(), &autoscaling.DescribePoliciesInput{
 					AutoScalingGroupName: aws.String(autoScalingGroupName),
 				})
 
 				if err != nil {
-					fmt.Println("DescribeScheduledActions Error : ", err)
-				} else if len(scheduledActionsResp.ScheduledUpdateGroupActions) > 0 {
-					// 예약된 작업 중 가장 작은 MinSize 찾기
-					var minScheduledSize *int32
-					for _, action := range scheduledActionsResp.ScheduledUpdateGroupActions {
-						if action.MinSize != nil {
-							if minScheduledSize == nil || *action.MinSize < *minScheduledSize {
-								minScheduledSize = action.MinSize
+					fmt.Println("DescribePolicies Error : ", err)
+					break
+				}
+
+				if len(policiesResp.ScalingPolicies) > 0 {
+
+					resp, err := c.autoScalingClient.DescribeAutoScalingGroups(context.Background(), &autoscaling.DescribeAutoScalingGroupsInput{
+						AutoScalingGroupNames: []string{autoScalingGroupName},
+					})
+
+					if err != nil {
+						fmt.Println("autoScalingGroup Error : ", err)
+						break
+					}
+
+					// AutoScalin Group 조회
+					if len(resp.AutoScalingGroups) > 0 {
+						min := *resp.AutoScalingGroups[0].MinSize
+						max := *resp.AutoScalingGroups[0].MaxSize
+
+						instanceParmas.AsgMin = strconv.Itoa(int(min))
+						instanceParmas.AsgMax = strconv.Itoa(int(max))
+					}
+
+					// 예약된 작업에서 최소 개수 조회
+					scheduledActionsResp, err := c.autoScalingClient.DescribeScheduledActions(context.Background(), &autoscaling.DescribeScheduledActionsInput{
+						AutoScalingGroupName: aws.String(autoScalingGroupName),
+					})
+
+					if err != nil {
+						fmt.Println("DescribeScheduledActions Error : ", err)
+					} else if len(scheduledActionsResp.ScheduledUpdateGroupActions) > 0 {
+						// 예약된 작업 중 가장 작은 MinSize 찾기
+						var minScheduledSize *int32
+						for _, action := range scheduledActionsResp.ScheduledUpdateGroupActions {
+							if action.MinSize != nil {
+								if minScheduledSize == nil || *action.MinSize < *minScheduledSize {
+									minScheduledSize = action.MinSize
+								}
 							}
+						}
+
+						if minScheduledSize != nil {
+							instanceParmas.SchedulingMinCount = strconv.Itoa(int(*minScheduledSize))
 						}
 					}
 
-					if minScheduledSize != nil {
-						instanceParmas.SchedulingMinCount = strconv.Itoa(int(*minScheduledSize))
-					}
 				}
-
 			}
 
 			instances[tagMap["Name"]] = instanceParmas
