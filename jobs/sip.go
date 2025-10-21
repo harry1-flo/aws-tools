@@ -41,7 +41,7 @@ func ListEC2(ec2 aws.EC2Config) {
 	defer csv.End()
 
 	// emr 제외
-	csv.Write("account", "InstanceId", "Name", "Environment", "SingleInstanceCount", "AutoScalingGroup", "ASG Min", "ASG Max")
+	csv.Write("account", "InstanceId", "Name", "Environment", "SingleInstanceCount", "AutoScalingGroup", "ASG Min", "ASG Max", "SchduleingMin Count")
 
 	for _, ec2Attr := range ec2List {
 		// EMR 체크
@@ -60,7 +60,7 @@ func ListEC2(ec2 aws.EC2Config) {
 		}
 
 		csv.OneFileWrite(ec2.Account, ec2Attr.InstanceId, ec2Attr.Name, ec2Attr.Environment, strconv.Itoa(ec2Attr.SingleInstanceCount),
-			ec2Attr.Tags["aws:autoscaling:groupName"], ec2Attr.AsgMin, ec2Attr.AsgMax)
+			ec2Attr.Tags["aws:autoscaling:groupName"], ec2Attr.AsgMin, ec2Attr.AsgMax, ec2Attr.SchedulingMinCount)
 	}
 
 }

@@ -37,8 +37,9 @@ type ListInstanceParmas struct {
 	Tags       map[string]string
 
 	// Autoscaling
-	AsgMin string
-	AsgMax string
+	AsgMin             string
+	AsgMax             string
+	SchedulingMinCount string // 예약 스케줄링 최소 개수
 
 	// Network
 	PublicIp    string
@@ -63,7 +64,6 @@ func (c EC2Config) ListInstance(isAutoScaling bool) map[string]ListInstanceParma
 	resp, err := c.ec2Client.DescribeInstances(context.Background(), &ec2.DescribeInstancesInput{})
 	if err != nil {
 		panic(err)
-		return nil
 	}
 
 	fmt.Println("ec2 count : ", len(resp.Reservations))
@@ -132,6 +132,30 @@ func (c EC2Config) ListInstance(isAutoScaling bool) map[string]ListInstanceParma
 					instanceParmas.AsgMin = strconv.Itoa(int(min))
 					instanceParmas.AsgMax = strconv.Itoa(int(max))
 				}
+
+				// 예약된 작업에서 최소 개수 조회
+				scheduledActionsResp, err := c.autoScalingClient.DescribeScheduledActions(context.Background(), &autoscaling.DescribeScheduledActionsInput{
+					AutoScalingGroupName: aws.String(autoScalingGroupName),
+				})
+
+				if err != nil {
+					fmt.Println("DescribeScheduledActions Error : ", err)
+				} else if len(scheduledActionsResp.ScheduledUpdateGroupActions) > 0 {
+					// 예약된 작업 중 가장 작은 MinSize 찾기
+					var minScheduledSize *int32
+					for _, action := range scheduledActionsResp.ScheduledUpdateGroupActions {
+						if action.MinSize != nil {
+							if minScheduledSize == nil || *action.MinSize < *minScheduledSize {
+								minScheduledSize = action.MinSize
+							}
+						}
+					}
+
+					if minScheduledSize != nil {
+						instanceParmas.SchedulingMinCount = strconv.Itoa(int(*minScheduledSize))
+					}
+				}
+
 			}
 
 			instances[tagMap["Name"]] = instanceParmas
