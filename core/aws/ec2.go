@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"strconv"
+	"strings"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/autoscaling"
@@ -37,9 +38,10 @@ type ListInstanceParmas struct {
 	Tags       map[string]string
 
 	// Autoscaling
-	AsgMin             string
-	AsgMax             string
-	SchedulingMinCount string // 예약 스케줄링 최소 개수
+	AutoScalingGroupName string
+	AsgMin               string
+	AsgMax               string
+	SchedulingMinCount   string // 예약 스케줄링 최소 개수
 
 	// Network
 	PublicIp    string
@@ -114,6 +116,7 @@ func (c EC2Config) ListInstance(isAutoScaling bool) map[string]ListInstanceParma
 			// AutoScaling 표기
 			if isAutoScaling && c.isAutoscaling(tagMap) {
 				autoScalingGroupName := tagMap["aws:autoscaling:groupName"]
+				instanceParmas.AutoScalingGroupName = autoScalingGroupName
 
 				// 동적 크기 정책 존재 여부
 				policiesResp, err := c.autoScalingClient.DescribePolicies(context.Background(), &autoscaling.DescribePoliciesInput{
@@ -225,4 +228,137 @@ func (c EC2Config) isAutoscaling(tag map[string]string) bool {
 		return true
 	}
 	return false
+}
+
+type ASGType struct {
+	InstanceType string
+
+	MinSize string
+	MaxSize string
+
+	Schdules map[string]string
+
+	// Schdule 걸려있을 경우
+	NightMinSize string
+	NightMaxSize string
+
+	ScaleOutCondition      string
+	ScaleOutConditionValue string
+
+	ScaleInCondition      string
+	ScaleInConditionValue string
+}
+
+func (c EC2Config) GetEC2DetailsByInstanceId(asgName string) ASGType {
+
+	asgParams := ASGType{}
+
+	output, err := c.autoScalingClient.DescribeAutoScalingGroups(context.Background(), &autoscaling.DescribeAutoScalingGroupsInput{
+		AutoScalingGroupNames: []string{asgName},
+	})
+
+	if err != nil {
+		panic(err)
+	}
+
+	asg := output.AutoScalingGroups[0]
+
+	// Instance Type
+	var instanceType string
+
+	// 현재 실행 중인 인스턴스에서 타입 가져오기
+	if len(asg.Instances) > 0 && asg.Instances[0].InstanceId != nil {
+		ec2Resp, err := c.ec2Client.DescribeInstances(context.Background(), &ec2.DescribeInstancesInput{
+			InstanceIds: []string{*asg.Instances[0].InstanceId},
+		})
+		if err == nil && len(ec2Resp.Reservations) > 0 && len(ec2Resp.Reservations[0].Instances) > 0 {
+			instanceType = string(ec2Resp.Reservations[0].Instances[0].InstanceType)
+		}
+	}
+
+	// 인스턴스가 없으면 Launch Template에서 가져오기
+	if instanceType == "" {
+		var ltName *string
+		var ltVersion *string
+
+		if asg.MixedInstancesPolicy != nil && asg.MixedInstancesPolicy.LaunchTemplate != nil {
+			ltName = asg.MixedInstancesPolicy.LaunchTemplate.LaunchTemplateSpecification.LaunchTemplateName
+			ltVersion = asg.MixedInstancesPolicy.LaunchTemplate.LaunchTemplateSpecification.Version
+		} else if asg.LaunchTemplate != nil {
+			ltName = asg.LaunchTemplate.LaunchTemplateName
+			ltVersion = asg.LaunchTemplate.Version
+		}
+
+		if ltName != nil {
+			launchTemplateResp, err := c.ec2Client.DescribeLaunchTemplateVersions(context.Background(), &ec2.DescribeLaunchTemplateVersionsInput{
+				LaunchTemplateName: ltName,
+				Versions:           []string{aws.ToString(ltVersion)},
+			})
+			if err == nil && len(launchTemplateResp.LaunchTemplateVersions) > 0 {
+				ltInstanceType := launchTemplateResp.LaunchTemplateVersions[0].LaunchTemplateData.InstanceType
+				if ltInstanceType != "" {
+					instanceType = string(ltInstanceType)
+				}
+			}
+		}
+	}
+
+	asgParams.InstanceType = instanceType
+
+	asgParams.MinSize = strconv.Itoa(int(*asg.MinSize))
+	asgParams.MaxSize = strconv.Itoa(int(*asg.MaxSize))
+
+	asgParams.NightMinSize = strconv.Itoa(int(*asg.MaxSize))
+
+	scheduledActionsResp, err := c.autoScalingClient.DescribeScheduledActions(context.Background(), &autoscaling.DescribeScheduledActionsInput{
+		AutoScalingGroupName: aws.String(*asg.AutoScalingGroupName),
+	})
+	if err != nil {
+		panic(err)
+	}
+
+	// 스케쥴 정책 있다면
+	if len(scheduledActionsResp.ScheduledUpdateGroupActions) > 0 {
+		shce := make(map[string]string)
+
+		for _, schedule := range scheduledActionsResp.ScheduledUpdateGroupActions {
+
+			shce[*schedule.ScheduledActionName] = *schedule.Recurrence
+
+			if strings.Contains(*schedule.ScheduledActionName, "night") {
+				asgParams.NightMinSize = strconv.Itoa(int(*schedule.MinSize))
+
+				if schedule.MaxSize != nil {
+					asgParams.NightMaxSize = strconv.Itoa(int(*schedule.MaxSize))
+				}
+			}
+		}
+
+		asgParams.Schdules = shce
+	}
+
+	// 스케쥴링
+	policyResp, err := c.autoScalingClient.DescribePolicies(context.Background(), &autoscaling.DescribePoliciesInput{
+		AutoScalingGroupName: aws.String(*asg.AutoScalingGroupName),
+	})
+	if err != nil {
+		panic(err)
+	}
+
+	for _, policy := range policyResp.ScalingPolicies {
+		fmt.Println(*policy.PolicyName)
+
+		if strings.Contains(*policy.PolicyName, "cpu-out") {
+			asgParams.ScaleOutCondition = ""
+			asgParams.ScaleOutConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
+		}
+
+		if strings.Contains(*policy.PolicyName, "cpu-in") {
+			asgParams.ScaleInCondition = ""
+			asgParams.ScaleInConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
+		}
+	}
+
+	return asgParams
+
 }
