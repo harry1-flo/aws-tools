@@ -8,6 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/autoscaling"
+	"github.com/aws/aws-sdk-go-v2/service/cloudwatch"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 )
@@ -17,6 +18,7 @@ type EC2Config struct {
 
 	ec2Client         *ec2.Client
 	autoScalingClient *autoscaling.Client
+	cwClient          *cloudwatch.Client
 }
 
 func NewEC2(cfg aws.Config, account string) *EC2Config {
@@ -24,6 +26,7 @@ func NewEC2(cfg aws.Config, account string) *EC2Config {
 		Account:           NamingConvert[account],
 		ec2Client:         ec2.NewFromConfig(cfg),
 		autoScalingClient: autoscaling.NewFromConfig(cfg),
+		cwClient:          cloudwatch.NewFromConfig(cfg),
 	}
 }
 
@@ -309,6 +312,7 @@ func (c EC2Config) GetEC2DetailsByInstanceId(asgName string) ASGType {
 	asgParams.MaxSize = strconv.Itoa(int(*asg.MaxSize))
 
 	asgParams.NightMinSize = strconv.Itoa(int(*asg.MaxSize))
+	asgParams.NightMaxSize = strconv.Itoa(int(*asg.MaxSize))
 
 	scheduledActionsResp, err := c.autoScalingClient.DescribeScheduledActions(context.Background(), &autoscaling.DescribeScheduledActionsInput{
 		AutoScalingGroupName: aws.String(*asg.AutoScalingGroupName),
@@ -325,12 +329,36 @@ func (c EC2Config) GetEC2DetailsByInstanceId(asgName string) ASGType {
 
 			shce[*schedule.ScheduledActionName] = *schedule.Recurrence
 
-			if strings.Contains(*schedule.ScheduledActionName, "night") {
-				asgParams.NightMinSize = strconv.Itoa(int(*schedule.MinSize))
+			suffix := ""
+			if strings.Contains(strings.ToLower(*schedule.ScheduledActionName), "night") || strings.Contains(strings.ToLower(*schedule.ScheduledActionName), "day") {
 
-				if schedule.MaxSize != nil {
-					asgParams.NightMaxSize = strconv.Itoa(int(*schedule.MaxSize))
+				// Desired Count / Min Count / Max Count
+				if schedule.DesiredCapacity != nil {
+					suffix += fmt.Sprintf("%d / ", *schedule.DesiredCapacity)
+				} else {
+					suffix += fmt.Sprintf("%d / ", 0)
 				}
+
+				// 야간 일 경우
+				if strings.Contains(*schedule.ScheduledActionName, "night") {
+					asgParams.NightMinSize = strconv.Itoa(int(*schedule.MinSize))
+				}
+
+				suffix += fmt.Sprintf("%d / ", *schedule.MinSize)
+
+				if schedule.MaxSize != nil && *schedule.MaxSize != 0 {
+
+					// 야간 일 경우
+					if strings.Contains(*schedule.ScheduledActionName, "night") {
+						asgParams.NightMaxSize = strconv.Itoa(int(*schedule.MaxSize))
+					}
+
+					suffix += fmt.Sprintf("%d / ", *schedule.MaxSize)
+				} else {
+					suffix += fmt.Sprintf("%d ", 0)
+				}
+
+				shce[*schedule.ScheduledActionName] = fmt.Sprintf("%s -> %s", *schedule.Recurrence, suffix)
 			}
 		}
 
@@ -346,16 +374,43 @@ func (c EC2Config) GetEC2DetailsByInstanceId(asgName string) ASGType {
 	}
 
 	for _, policy := range policyResp.ScalingPolicies {
-		fmt.Println(*policy.PolicyName)
 
-		if strings.Contains(*policy.PolicyName, "cpu-out") {
-			asgParams.ScaleOutCondition = ""
-			asgParams.ScaleOutConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
-		}
+		if strings.Contains(*policy.PolicyName, "cpu-out") || strings.Contains(*policy.PolicyName, "cpu-in") {
 
-		if strings.Contains(*policy.PolicyName, "cpu-in") {
-			asgParams.ScaleInCondition = ""
-			asgParams.ScaleInConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
+			resp, err := c.cwClient.DescribeAlarms(context.Background(), &cloudwatch.DescribeAlarmsInput{
+				AlarmNames: []string{*policy.PolicyName},
+			})
+
+			if err != nil {
+				panic(err)
+			}
+
+			metricName := *resp.MetricAlarms[0].MetricName
+			metricThreshold := *resp.MetricAlarms[0].Threshold
+			metricOperator := ""
+
+			switch resp.MetricAlarms[0].ComparisonOperator {
+			case "LessThanOrEqualToThreshold":
+				metricOperator = "<="
+			case "GreaterThanOrEqualToThreshold":
+				metricOperator = ">="
+			case "LessThanThreshold":
+				metricOperator = "<"
+			case "GreaterThanThreshold":
+				metricOperator = ">"
+			}
+
+			if strings.Contains(*policy.PolicyName, "cpu-out") {
+
+				asgParams.ScaleOutCondition = fmt.Sprintf("%s: %s %0.f", metricName, metricOperator, metricThreshold)
+				asgParams.ScaleOutConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
+			}
+
+			if strings.Contains(*policy.PolicyName, "cpu-in") {
+				asgParams.ScaleInCondition = fmt.Sprintf("%s: %s %0.f", metricName, metricOperator, metricThreshold)
+				asgParams.ScaleInConditionValue = strconv.Itoa(int(*policy.ScalingAdjustment))
+			}
+
 		}
 	}
 

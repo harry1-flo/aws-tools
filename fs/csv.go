@@ -2,6 +2,7 @@ package fs
 
 import (
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 )
@@ -17,12 +18,15 @@ type CSVParams struct {
 func NewCSV(name string) CSVParams {
 	filename := getFilename(name)
 
-	fs, err := os.Create(DIST_PATH + "/" + filename)
+	distDir, _ := os.Getwd()
+	distDir = distDir + "../../../dist"
+
+	fs, err := os.Create(filepath.Join(distDir, filename))
 	if err != nil {
 		panic("Failed to create CSV file: " + err.Error())
 	}
 
-	onefs, err := os.OpenFile(DIST_PATH+"/"+"one.csv", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+	onefs, err := os.OpenFile(filepath.Join(distDir, "result.csv"), os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		panic("Failed to create CSV file: " + err.Error())
 	}
